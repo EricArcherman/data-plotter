@@ -1,0 +1,1 @@
+/Users/ericarcherman/Files/primes/criterion-benchmark-graphs/rust-data-parser/target/debug/criterion-benchmark-graphs: /Users/ericarcherman/Files/primes/criterion-benchmark-graphs/rust-data-parser/src/main.rs

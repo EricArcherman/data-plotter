@@ -23,7 +23,7 @@ with open(os.path.join(script_dir, 'r1cs-results.txt'), 'r') as f:
 
 # Split data into x and y coordinates
 omc_x = [point[0] for point in omc_data]
-omc_y = [point[1]/1e9 * 5/3 for point in omc_data] # Convert to billions
+omc_y = [point[1]/1e9 * 5/3.25 for point in omc_data] # Convert to billions
 
 r1cs_x = [point[0] for point in r1cs_data] 
 r1cs_y = [point[1]/1e9 for point in r1cs_data] # Convert to billions

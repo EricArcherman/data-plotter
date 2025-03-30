@@ -56,7 +56,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     for (path, output_file) in paths.iter().zip(output_files.iter()) {
         match decode_cbor(path) {
             Ok(fib_time) => {
-                std::fs::write(output_file, &format!("{:?}", fib_time))?;
+                let mut content = String::new();
+                content.push_str("[");
+                for (i, (number, time)) in fib_time.iter().enumerate() {
+                    if i > 0 {
+                        content.push_str(", ");
+                    }
+                    content.push_str(&format!("({}, {})", number, time));
+                }
+                content.push_str("]");
+                std::fs::write(output_file, content)?;
                 println!("Results written to {}", output_file);
             },
             Err(e) => eprintln!("Error: {}", e),

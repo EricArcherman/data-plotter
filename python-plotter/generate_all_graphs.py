@@ -7,10 +7,10 @@ import glob
 plt.style.use('seaborn-v0_8-paper')
 mpl.rcParams['font.family'] = 'serif'
 mpl.rcParams['font.serif'] = ['Times New Roman']
-mpl.rcParams['axes.labelsize'] = 12
-mpl.rcParams['axes.titlesize'] = 14
-mpl.rcParams['xtick.labelsize'] = 10
-mpl.rcParams['ytick.labelsize'] = 10
+mpl.rcParams['axes.labelsize'] = 16
+mpl.rcParams['axes.titlesize'] = 16
+mpl.rcParams['xtick.labelsize'] = 14
+mpl.rcParams['ytick.labelsize'] = 14
 
 # Get the directory where this script is located
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -44,17 +44,29 @@ for omc_file in omc_files:
     with open(r1cs_file, 'r') as f:
         r1cs_data = eval(f.read())
 
-    # Split data into x and y coordinates
-    omc_x = [point[0] for point in omc_data]
-    omc_y = [point[1]/1e9 * 65/50 for point in omc_data] # Convert to billions
-
-    r1cs_x = [point[0] for point in r1cs_data] 
-    r1cs_y = [point[1]/1e9 for point in r1cs_data] # Convert to billions
-
     # Create the plot
-    fig, ax = plt.subplots(figsize=(8, 6))
+    if prefix == 'prove':
+        fig, ax = plt.subplots(figsize=(12, 10))
+        omc_x = [point[0] for point in omc_data]
+        omc_y = [point[1] * 65/50 for point in omc_data]
+        r1cs_x = [point[0] for point in r1cs_data] 
+        r1cs_y = [point[1] for point in r1cs_data]
+    elif prefix == 'verify':
+        fig, ax = plt.subplots(figsize=(6, 5))
+        omc_x = [point[0] for point in omc_data]
+        omc_y = [point[1] * 65/50 for point in omc_data]
+        r1cs_x = [point[0] for point in r1cs_data] 
+        r1cs_y = [point[1] for point in r1cs_data]
+    elif prefix == 'size':
+        fig, ax = plt.subplots(figsize=(6, 5))
+        omc_x = [point[0] for point in omc_data]
+        omc_y = [point[1] * 1024 for point in omc_data]
+        r1cs_x = [point[0] for point in r1cs_data] 
+        r1cs_y = [point[1] * 1024 for point in r1cs_data]
+
     ax.plot(omc_x, omc_y, color='#2E4057', linewidth=2, label='Jolt')
     ax.plot(r1cs_x, r1cs_y, color='#2E7D32', linewidth=2, label='LightningJolt')
+
 
     # Set title based on the prefix
     title_map = {
@@ -68,7 +80,7 @@ for omc_file in omc_files:
     
     # Set y-axis label based on the benchmark type
     if prefix == 'size':
-        ax.set_ylabel('Proof Size (KB)', fontsize=12, labelpad=10)
+        ax.set_ylabel('Proof Size (kb)', fontsize=12, labelpad=10)
     elif prefix == 'prove':
         ax.set_ylabel('Prover Time (s)', fontsize=12, labelpad=10)
     elif prefix == 'verify':

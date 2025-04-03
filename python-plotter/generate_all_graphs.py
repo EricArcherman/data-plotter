@@ -7,14 +7,15 @@ import glob
 plt.style.use('seaborn-v0_8-paper')
 mpl.rcParams['font.family'] = 'serif'
 mpl.rcParams['font.serif'] = ['Times New Roman']
-mpl.rcParams['axes.labelsize'] = 16
-mpl.rcParams['axes.titlesize'] = 16
-mpl.rcParams['xtick.labelsize'] = 14
-mpl.rcParams['ytick.labelsize'] = 14
+mpl.rcParams['axes.labelsize'] = 24
+mpl.rcParams['axes.titlesize'] = 32
+mpl.rcParams['xtick.labelsize'] = 18
+mpl.rcParams['ytick.labelsize'] = 18
+mpl.rcParams['legend.fontsize'] = 18
 
 # Get the directory where this script is located
 script_dir = os.path.dirname(os.path.abspath(__file__))
-graphs_dir = os.path.join(script_dir, 'graphs')
+graphs_dir = os.path.join(script_dir, 'graphs-round-two')
 
 # Ensure graphs directory exists
 os.makedirs(graphs_dir, exist_ok=True)
@@ -54,7 +55,7 @@ for omc_file in omc_files:
     elif prefix == 'verify':
         fig, ax = plt.subplots(figsize=(6, 5))
         omc_x = [point[0] for point in omc_data]
-        omc_y = [point[1] * 65/50 for point in omc_data]
+        omc_y = [point[1] * 1000 for point in omc_data]
         r1cs_x = [point[0] for point in r1cs_data] 
         r1cs_y = [point[1] * 1000 for point in r1cs_data]
     elif prefix == 'size':
@@ -67,7 +68,6 @@ for omc_file in omc_files:
     ax.plot(omc_x, omc_y, color='#2E4057', linewidth=2, label='Jolt')
     ax.plot(r1cs_x, r1cs_y, color='#2E7D32', linewidth=2, label='LightningJolt')
 
-
     # Set title based on the prefix
     title_map = {
         'prove': 'Prover Time',
@@ -76,18 +76,18 @@ for omc_file in omc_files:
     }
     title = title_map.get(prefix, prefix.capitalize())
     
-    ax.set_xlabel('Fibonacci Benchmark Number', fontsize=12, labelpad=10)
+    ax.set_xlabel('Fibonacci Benchmark Number', fontsize=24, labelpad=10)
     
     # Set y-axis label based on the benchmark type
     if prefix == 'size':
-        ax.set_ylabel('Proof Size (kb)', fontsize=12, labelpad=10)
+        ax.set_ylabel('Proof Size (kb)', fontsize=24, labelpad=10)
     elif prefix == 'prove':
-        ax.set_ylabel('Prover Time (s)', fontsize=12, labelpad=10)
+        ax.set_ylabel('Prover Time (s)', fontsize=24, labelpad=10)
     elif prefix == 'verify':
-        ax.set_ylabel('Verifier Time (ms)', fontsize=12, labelpad=10)
+        ax.set_ylabel('Verifier Time (ms)', fontsize=24, labelpad=10)
         
-    ax.set_title(f'{title}: Jolt vs LightningJolt', fontsize=14, pad=15)
-    ax.legend(frameon=True, fancybox=False, edgecolor='black', fontsize=10)
+    ax.set_title(f'{title}', fontsize=32, pad=15)
+    ax.legend(frameon=True, fancybox=False, edgecolor='black', fontsize=18)
     ax.grid(True, linestyle='--', alpha=0.7)
 
     # Adjust layout

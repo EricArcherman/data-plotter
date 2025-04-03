@@ -6,10 +6,11 @@ import matplotlib as mpl
 plt.style.use('seaborn-v0_8-paper')
 mpl.rcParams['font.family'] = 'serif'
 mpl.rcParams['font.serif'] = ['Times New Roman']
-mpl.rcParams['axes.labelsize'] = 16
-mpl.rcParams['axes.titlesize'] = 16
-mpl.rcParams['xtick.labelsize'] = 14
-mpl.rcParams['ytick.labelsize'] = 14
+mpl.rcParams['axes.labelsize'] = 24
+mpl.rcParams['axes.titlesize'] = 32
+mpl.rcParams['xtick.labelsize'] = 18
+mpl.rcParams['ytick.labelsize'] = 18
+mpl.rcParams['legend.fontsize'] = 18
 
 # Get the directory where this script is located
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -50,12 +51,12 @@ ax.plot(omc_x[omc_idx], omc_y[omc_idx], 'o', color='#2E4057', markersize=8)
 ax.plot(r1cs_x[r1cs_idx], r1cs_y[r1cs_idx], 'o', color='#2E7D32', markersize=8)
 
 # Add point labels with improved formatting
-ax.annotate(f'Jolt: ({target_x}, {omc_y[omc_idx]:.2f}s)', 
+ax.annotate(f'Jolt: (70k, {omc_y[omc_idx]:.2f}s)', 
             xy=(omc_x[omc_idx], omc_y[omc_idx]),
             xytext=(-90, 15), textcoords='offset points',
             fontsize=16, color='#2E4057',
             bbox=dict(facecolor='white', edgecolor='#2E4057', alpha=0.8))
-ax.annotate(f'LightningJolt: ({target_x}, {r1cs_y[r1cs_idx]:.2f}s)', 
+ax.annotate(f'LightningJolt: (70k, {r1cs_y[r1cs_idx]:.2f}s)', 
             xy=(r1cs_x[r1cs_idx], r1cs_y[r1cs_idx]),
             xytext=(-30, -25), textcoords='offset points',
             fontsize=16, color='#2E7D32',
@@ -75,17 +76,17 @@ ax.annotate(f'{speedup:.1f}× faster',
                       pad=15),
             fontweight='bold')
 
-ax.set_xlabel('Fibonacci Benchmark Number', fontsize=12, labelpad=10)
-ax.set_ylabel('Prover Time (s)', fontsize=12, labelpad=10)
-ax.set_title('Prover Time: Jolt vs LightningJolt', fontsize=14, pad=15)
-ax.legend(frameon=True, fancybox=False, edgecolor='black', fontsize=10)
+ax.set_xlabel('Fibonacci Benchmark Number', fontsize=24, labelpad=10)
+ax.set_ylabel('Prover Time (s)', fontsize=24, labelpad=10)
+ax.set_title('Prover Time: Jolt vs LightningJolt', fontsize=32, pad=15)
+ax.legend(frameon=True, fancybox=False, edgecolor='black', fontsize=18)
 ax.grid(True, linestyle='--', alpha=0.7)
 
 # Adjust layout
 plt.tight_layout()
 
 # Save the plot with high DPI for publication quality
-output_file = os.path.join(graphs_dir, 'prove_hyperkzg_comparison.png')
+output_file = 'prove_hyperkzg_comparison.png'
 plt.savefig(output_file, dpi=300, bbox_inches='tight')
 plt.close()
 

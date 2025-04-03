@@ -56,7 +56,7 @@ for omc_file in omc_files:
         omc_x = [point[0] for point in omc_data]
         omc_y = [point[1] * 65/50 for point in omc_data]
         r1cs_x = [point[0] for point in r1cs_data] 
-        r1cs_y = [point[1] for point in r1cs_data]
+        r1cs_y = [point[1] * 1000 for point in r1cs_data]
     elif prefix == 'size':
         fig, ax = plt.subplots(figsize=(6, 5))
         omc_x = [point[0] for point in omc_data]

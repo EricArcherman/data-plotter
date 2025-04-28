@@ -26,40 +26,19 @@ with open(omc_file, 'r') as f:
 with open(r1cs_file, 'r') as f:
     r1cs_data = literal_eval(f.read())
 
-fig, ax = plt.subplots(figsize=(6, 5))
+fig, ax = plt.subplots(figsize=(12, 10))
 omc_x = [point[0] for point in omc_data]
-omc_y = [point[1] * 1000 for point in omc_data]
+omc_y = [point[1] * 65/50 for point in omc_data]
 r1cs_x = [point[0] for point in r1cs_data] 
-r1cs_y = [point[1] * 1000 for point in r1cs_data]
-
-
-    # # Create the plot
-    # if prefix == 'prove':
-    #     fig, ax = plt.subplots(figsize=(12, 10))
-    #     omc_x = [point[0] for point in omc_data]
-    #     omc_y = [point[1] * 65/50 for point in omc_data]
-    #     r1cs_x = [point[0] for point in r1cs_data] 
-    #     r1cs_y = [point[1] for point in r1cs_data]
-    # elif prefix == 'size':
-    #     fig, ax = plt.subplots(figsize=(6, 5))
-    #     omc_x = [point[0] for point in omc_data]
-    #     omc_y = [point[1] * 1024 for point in omc_data]
-    #     r1cs_x = [point[0] for point in r1cs_data] 
-    #     r1cs_y = [point[1] * 1024 for point in r1cs_data]
+r1cs_y = [point[1] for point in r1cs_data]
 
 ax.plot(omc_x, omc_y, color='#2E4057', linewidth=2, label='Jolt')
 ax.plot(r1cs_x, r1cs_y, color='#2E7D32', linewidth=2, label='LightningJolt')
 
 ax.set_xlabel('Fibonacci Benchmark Number', fontsize=24, labelpad=10)
-ax.set_ylabel('Verifier Time (ms)', fontsize=24, labelpad=10)
+ax.set_ylabel('Prover Time (s)', fontsize=24, labelpad=10)
 
-title = 'Verifier Time'
-    
-    # Set y-axis label based on the benchmark type
-    # if prefix == 'size':
-    #     ax.set_ylabel('Proof Size (kb)', fontsize=24, labelpad=10)
-    # elif prefix == 'prove':
-    #     ax.set_ylabel('Prover Time (s)', fontsize=24, labelpad=10)        
+title = 'Prover Time'   
         
 ax.set_title(f'{title}', fontsize=32, pad=15)
 ax.legend(frameon=True, fancybox=False, edgecolor='black', fontsize=18)
@@ -68,7 +47,7 @@ ax.grid(True, linestyle='--', alpha=0.7)
 
 plt.tight_layout()
 
-output_file = os.path.join(dir, f'verify_hyperkzg_comparison.png')
+output_file = os.path.join(dir, f'{dir.split("/")[-1]}_plot.png')
 plt.savefig(output_file, dpi=300, bbox_inches='tight')
 plt.close()
     

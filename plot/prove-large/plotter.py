@@ -47,7 +47,7 @@ ax.grid(True, linestyle='--', alpha=0.7)
 
 plt.tight_layout()
 
-output_file = os.path.join(dir, f'{dir.split("/")[-1]}_plot.png')
+output_file = os.path.join(dir, f'prove_large_plot.png')
 plt.savefig(output_file, dpi=300, bbox_inches='tight')
 plt.close()
     

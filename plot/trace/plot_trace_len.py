@@ -16,9 +16,7 @@ mpl.rcParams['legend.fontsize'] = 18
 dir = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(dir, 'trace_len.txt'), 'r') as f:
     data = ast.literal_eval(f.read())
-
-print(data)
-
+    
 # Extract x and y values
 x_values = [item[1] for item in data]
 y_values = [item[0] for item in data]

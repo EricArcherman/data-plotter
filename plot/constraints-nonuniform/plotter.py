@@ -35,7 +35,7 @@ markers = ['o', 's', '^']
 
 for (file_name, data), color, marker in zip(data_series.items(), colors, markers):
     series_num = file_name.split(".")[0]  # Extract number from filename
-    label = f'{series_num} init constraints'  # Add complexity notation
+    label = f'{series_num} init trace length'  # Add complexity notation
     x_vals, y_vals = zip(*data)
     
     # Plot the data points and connecting lines

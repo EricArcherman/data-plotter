@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import ast
 import os
+
 # Set style for research paper
 plt.style.use('seaborn-v0_8-paper')
 mpl.rcParams['font.family'] = 'serif'
@@ -22,19 +23,19 @@ x_values = [item[0] for item in data]
 y_values = [item[1] for item in data]
 
 # Create the plot
-plt.figure(figsize=(10, 6))
-plt.plot(x_values, y_values, 'o-', linewidth=2, markersize=8)
+fig, ax = plt.subplots(figsize=(8, 6))
+ax.plot(x_values, y_values, 'o-', color='#2E4057', linewidth=2, markersize=8)
 
 # Add labels and title
-plt.xlabel('Trace Length')
-plt.ylabel('Percent Memory Proof (%)')
-plt.title('Memory Proof Overhead')
+ax.set_xlabel('Trace Length', fontsize=24, labelpad=10)
+ax.set_ylabel('Percent Memory Proof (%)', fontsize=24, labelpad=10)
+ax.set_title('Memory Proof Overhead', fontsize=32, pad=15)
 
 # Set y-axis limits
-plt.ylim(40, 80)
+ax.set_ylim(40, 80)
 
 # Add grid for better readability
-plt.grid(True, linestyle='--', alpha=0.7)
+ax.grid(True, linestyle='--', alpha=0.7)
 
 # Save the plot
 plt.tight_layout()

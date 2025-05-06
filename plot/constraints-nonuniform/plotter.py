@@ -27,7 +27,7 @@ for file_name in data_files:
         data_series[file_name] = ast.literal_eval(f.read())
 
 # Create the plot
-fig, ax = plt.subplots(figsize=(10, 8))
+fig, ax = plt.subplots(figsize=(8, 6))
 
 # Plot each series with different colors and markers
 colors = ['#2E4057', '#2E7D32', '#C62828']

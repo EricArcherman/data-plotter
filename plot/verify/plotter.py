@@ -26,7 +26,7 @@ with open(omc_file, 'r') as f:
 with open(r1cs_file, 'r') as f:
     r1cs_data = literal_eval(f.read())
 
-fig, ax = plt.subplots(figsize=(6, 5))
+fig, ax = plt.subplots(figsize=(8, 6))
 omc_x = [point[0] for point in omc_data]
 omc_y = [point[1] * 1000 for point in omc_data]
 r1cs_x = [point[0] for point in r1cs_data] 

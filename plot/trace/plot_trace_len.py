@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import ast
 import os
+
 # Set style for research paper
 plt.style.use('seaborn-v0_8-paper')
 mpl.rcParams['font.family'] = 'serif'
@@ -22,16 +23,16 @@ x_values = [item[1] for item in data]
 y_values = [item[0] for item in data]
 
 # Create the plot
-plt.figure(figsize=(10, 6))
-plt.plot(x_values, y_values, 'o-', linewidth=2, markersize=8)
+fig, ax = plt.subplots(figsize=(8, 6))
+ax.plot(x_values, y_values, 'o-', color='#2E4057', linewidth=2, markersize=8)
 
 # Add labels and title
-plt.xlabel('Fibonacci Input')
-plt.ylabel('Trace Length')
-plt.title('Trace Scaling')
+ax.set_xlabel('Fibonacci Input', fontsize=24, labelpad=10)
+ax.set_ylabel('Trace Length', fontsize=24, labelpad=10)
+ax.set_title('Trace Scaling', fontsize=32, pad=15)
 
 # Add grid for better readability
-plt.grid(True, linestyle='--', alpha=0.7)
+ax.grid(True, linestyle='--', alpha=0.7)
 
 # Save the plot
 plt.tight_layout()

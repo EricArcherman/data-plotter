@@ -28,7 +28,7 @@ with open(r1cs_file, 'r') as f:
 
 fig, ax = plt.subplots(figsize=(8, 6))
 omc_x = [point[0] for point in omc_data]
-omc_y = [point[1] for point in omc_data]
+omc_y = [point[1] * 5/3.7 for point in omc_data]
 r1cs_x = [point[0] for point in r1cs_data] 
 r1cs_y = [point[1] for point in r1cs_data]
 

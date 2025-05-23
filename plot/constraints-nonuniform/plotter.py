@@ -18,7 +18,7 @@ mpl.rcParams['legend.fontsize'] = 18
 dir = os.path.dirname(os.path.abspath(__file__))
 
 # Read data from files
-data_files = ['372.txt', '629.txt', '22765.txt']
+data_files = ['7500.txt', '15000.txt', '22500.txt']
 data_series = {}
 
 for file_name in data_files:

@@ -3,6 +3,7 @@ import matplotlib as mpl
 import ast
 import os
 import numpy as np
+import matplotlib.ticker as ticker
 
 # Set style for research paper
 plt.style.use('seaborn-v0_8-paper')
@@ -50,6 +51,14 @@ for (file_name, data), color, marker in zip(data_series.items(), colors, markers
     ax.plot(x_smooth, y_smooth, color=color, linewidth=2, label=label, linestyle='--')
     ax.scatter(x_vals, y_vals, color=color, marker=marker, s=64, 
               edgecolor='black', linewidth=1.5, zorder=3)
+
+# Format x-axis to use K notation
+def format_func(value, tick_number):
+    if value >= 1000:
+        return f'{value/1000:.0f}K'
+    return f'{value:.0f}'
+
+ax.xaxis.set_major_formatter(ticker.FuncFormatter(format_func))
 
 # Set labels and title
 ax.set_xlabel('Added Uniform Constraints', fontsize=24, labelpad=10)

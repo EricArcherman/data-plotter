@@ -27,18 +27,18 @@ with open(r1cs_file, 'r') as f:
     r1cs_data = literal_eval(f.read())
 
 fig, ax = plt.subplots(figsize=(8, 6))
-omc_x = [point[0] for point in omc_data]
+omc_x = [point[0] * 5.944 + 220.6 for point in omc_data]
 omc_y = [point[1] * 1024 for point in omc_data]
-r1cs_x = [point[0] for point in r1cs_data] 
+r1cs_x = [point[0] * 5.944 + 220.6 for point in r1cs_data] 
 r1cs_y = [point[1] * 1024 for point in r1cs_data]
 
 ax.plot(omc_x, omc_y, color='#2E4057', linewidth=2, label='Jolt')
 ax.plot(r1cs_x, r1cs_y, color='#2E7D32', linewidth=2, label='LightningJolt')
 
-ax.set_xlabel('Fibonacci Benchmark Number', fontsize=24, labelpad=10)
+ax.set_xlabel('Trace Length', fontsize=24, labelpad=10)
 ax.set_ylabel('Proof Size (kb)', fontsize=24, labelpad=10)
 
-title = 'Proof Size'
+title = 'Proof Size vs. Trace Length'
     
 ax.set_title(f'{title}', fontsize=32, pad=15)
 ax.legend(frameon=True, fancybox=False, edgecolor='black', fontsize=18)

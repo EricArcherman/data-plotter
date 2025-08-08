@@ -1,0 +1,362 @@
+variant,benchmark,input_label,input_value,input_metric,time_lo_s,time_mid_s,time_hi_s,units,source_file
+32-reg,collatz,1th collatz number,1,n,3.3617,3.3998,3.4382,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,1th collatz number,1,n,3.4483,3.4669,3.4862,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,1th collatz number,1,n,3.5592,3.5859,3.6149,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,1th collatz number,1,n,3.4824,3.5187,3.5558,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,2th collatz number,2,n,3.365,3.4046,3.4484,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,2th collatz number,2,n,3.4554,3.477,3.51,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,2th collatz number,2,n,3.5536,3.5717,3.59,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,2th collatz number,2,n,3.5139,3.5405,3.5684,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,3th collatz number,3,n,3.3794,3.4112,3.4454,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,3th collatz number,3,n,3.4614,3.49,3.5234,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,3th collatz number,3,n,3.5734,3.5908,3.6099,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,3th collatz number,3,n,3.504,3.5421,3.5872,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,4th collatz number,4,n,3.3649,3.3903,3.4205,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,4th collatz number,4,n,3.4494,3.4817,3.5198,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,4th collatz number,4,n,3.6041,3.6403,3.6775,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,4th collatz number,4,n,3.5418,3.5758,3.6164,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,5th collatz number,5,n,3.3962,3.4362,3.4838,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,5th collatz number,5,n,3.4537,3.478,3.5067,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,5th collatz number,5,n,3.5704,3.603,3.6376,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,5th collatz number,5,n,3.3979,3.4349,3.4722,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,6th collatz number,6,n,3.3928,3.4226,3.4667,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,6th collatz number,6,n,3.4738,3.5022,3.5361,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,6th collatz number,6,n,3.5912,3.624,3.6603,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,6th collatz number,6,n,3.4379,3.4807,3.5291,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,7th collatz number,7,n,3.4679,3.487,3.5075,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,7th collatz number,7,n,3.4822,3.5073,3.5321,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,7th collatz number,7,n,3.5911,3.6336,3.676,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,7th collatz number,7,n,3.4664,3.5145,3.5691,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,8th collatz number,8,n,3.4469,3.4849,3.53,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,8th collatz number,8,n,3.4539,3.4761,3.5043,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,8th collatz number,8,n,3.5625,3.5804,3.6008,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,8th collatz number,8,n,3.3851,3.4069,3.4321,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,9th collatz number,9,n,3.4514,3.486,3.5183,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,9th collatz number,9,n,3.4752,3.5141,3.5591,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,9th collatz number,9,n,3.5825,3.613,3.6478,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,9th collatz number,9,n,3.4158,3.4398,3.467,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,10th collatz number,10,n,3.3999,3.4593,3.5221,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,10th collatz number,10,n,3.4734,3.5008,3.5297,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,10th collatz number,10,n,3.5642,3.5873,3.6197,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,10th collatz number,10,n,3.3958,3.4291,3.4717,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,11th collatz number,11,n,3.406,3.4537,3.5077,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,11th collatz number,11,n,3.4774,3.4995,3.5306,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,11th collatz number,11,n,3.5528,3.5678,3.5827,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,11th collatz number,11,n,3.4491,3.479,3.5102,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,12th collatz number,12,n,3.4536,3.5008,3.5584,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,12th collatz number,12,n,3.4624,3.495,3.5397,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,12th collatz number,12,n,3.568,3.5879,3.609,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,12th collatz number,12,n,3.4478,3.486,3.5255,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,13th collatz number,13,n,3.4565,3.4937,3.5491,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,13th collatz number,13,n,3.4676,3.4981,3.5352,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,13th collatz number,13,n,3.6033,3.6345,3.6686,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,13th collatz number,13,n,3.4436,3.4681,3.4933,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,14th collatz number,14,n,3.4562,3.4802,3.5068,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,14th collatz number,14,n,3.4676,3.4793,3.4932,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,14th collatz number,14,n,3.6109,3.6387,3.6715,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,14th collatz number,14,n,3.438,3.4667,3.5003,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,15th collatz number,15,n,3.447,3.4832,3.5222,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,15th collatz number,15,n,3.4876,3.5146,3.5462,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,15th collatz number,15,n,3.6359,3.663,3.6936,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,15th collatz number,15,n,3.4586,3.4907,3.5249,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,16th collatz number,16,n,3.4363,3.4754,3.5141,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,16th collatz number,16,n,3.4635,3.482,3.5023,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,16th collatz number,16,n,3.5735,3.6141,3.6593,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,16th collatz number,16,n,3.4385,3.4756,3.5188,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,17th collatz number,17,n,3.4515,3.4794,3.5076,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,17th collatz number,17,n,3.4679,3.4823,3.5016,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,17th collatz number,17,n,3.5796,3.5937,3.6086,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,17th collatz number,17,n,3.475,3.5067,3.5378,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,18th collatz number,18,n,3.417,3.4392,3.4612,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,18th collatz number,18,n,3.4867,3.5136,3.5447,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,18th collatz number,18,n,3.5837,3.6089,3.6356,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,18th collatz number,18,n,3.5875,3.6296,3.6762,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,19th collatz number,19,n,3.4783,3.5096,3.5459,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,19th collatz number,19,n,3.5023,3.5223,3.5433,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,19th collatz number,19,n,3.6123,3.6436,3.6803,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,19th collatz number,19,n,3.5623,3.5748,3.587,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,20th collatz number,20,n,3.4292,3.4591,3.4913,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,20th collatz number,20,n,3.4537,3.4705,3.4901,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,20th collatz number,20,n,3.5795,3.6041,3.635,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,20th collatz number,20,n,3.4963,3.5196,3.5409,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,21th collatz number,21,n,3.3731,3.3927,3.4142,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,21th collatz number,21,n,3.4593,3.4845,3.5137,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,21th collatz number,21,n,3.5749,3.5979,3.6234,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,21th collatz number,21,n,3.4444,3.4697,3.5008,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,22th collatz number,22,n,3.411,3.4495,3.4963,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,22th collatz number,22,n,3.4585,3.4774,3.5066,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,22th collatz number,22,n,3.6042,3.6243,3.6519,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,22th collatz number,22,n,3.4766,3.5179,3.5613,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,23th collatz number,23,n,3.4283,3.4696,3.5176,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,23th collatz number,23,n,3.4825,3.5173,3.5584,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,23th collatz number,23,n,3.5951,3.6195,3.6519,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,23th collatz number,23,n,3.4025,3.4286,3.4599,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,24th collatz number,24,n,3.4497,3.4754,3.5036,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,24th collatz number,24,n,3.4856,3.4973,3.5097,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,24th collatz number,24,n,3.6,3.6219,3.6453,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,24th collatz number,24,n,3.4383,3.4782,3.5192,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,collatz,25th collatz number,25,n,3.4411,3.4666,3.4973,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt
+no-reg,collatz,25th collatz number,25,n,3.5053,3.5196,3.5352,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/collatz.txt
+untouched,collatz,25th collatz number,25,n,3.628,3.6425,3.6582,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/collatz.txt
+v-reg,collatz,25th collatz number,25,n,3.5421,3.5765,3.6107,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/collatz.txt
+32-reg,fibonacci,100th fibonacci number,100,n,3.7317,3.7615,3.7941,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,100th fibonacci number,100,n,3.4673,3.4968,3.536,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,100th fibonacci number,100,n,3.6382,3.6664,3.6988,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,100th fibonacci number,100,n,3.5822,3.6177,3.6544,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,200th fibonacci number,200,n,3.6645,3.7017,3.7355,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,200th fibonacci number,200,n,3.4697,3.4797,3.4931,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,200th fibonacci number,200,n,3.6548,3.685,3.7173,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,200th fibonacci number,200,n,3.6065,3.6319,3.6587,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,400th fibonacci number,400,n,3.7741,3.7973,3.8186,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,400th fibonacci number,400,n,3.5059,3.5178,3.5331,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,400th fibonacci number,400,n,3.6942,3.7254,3.7599,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,400th fibonacci number,400,n,3.7786,3.8246,3.8737,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,700th fibonacci number,700,n,3.9971,4.0159,4.034,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,700th fibonacci number,700,n,3.582,3.6018,3.6238,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,700th fibonacci number,700,n,3.7406,3.7678,3.8038,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,700th fibonacci number,700,n,3.903,3.9439,3.9961,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,1000th fibonacci number,1000,n,3.9823,4.0158,4.0488,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,1000th fibonacci number,1000,n,3.5907,3.6038,3.6229,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,1000th fibonacci number,1000,n,3.7927,3.8192,3.8469,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,1000th fibonacci number,1000,n,3.9707,4.0136,4.0608,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,2000th fibonacci number,2000,n,4.3153,4.3348,4.3572,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,2000th fibonacci number,2000,n,3.7525,3.7784,3.8086,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,2000th fibonacci number,2000,n,3.9783,4.0086,4.0477,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,2000th fibonacci number,2000,n,4.4086,4.4469,4.4899,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,4000th fibonacci number,4000,n,4.9461,4.9845,5.0258,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,4000th fibonacci number,4000,n,3.981,3.999,4.0209,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,4000th fibonacci number,4000,n,4.2576,4.2783,4.2971,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,4000th fibonacci number,4000,n,5.2792,5.3489,5.4058,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,6000th fibonacci number,6000,n,6.0601,6.154,6.2271,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,6000th fibonacci number,6000,n,4.41,4.4386,4.4751,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,6000th fibonacci number,6000,n,4.7662,4.8204,4.8766,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,6000th fibonacci number,6000,n,6.735,6.8078,6.8795,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,8000th fibonacci number,8000,n,6.2534,6.2911,6.3329,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,8000th fibonacci number,8000,n,4.4772,4.4998,4.5233,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,8000th fibonacci number,8000,n,4.8493,4.8764,4.9033,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,8000th fibonacci number,8000,n,7.0351,7.0698,7.1088,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,10000th fibonacci number,10000,n,6.5165,6.5536,6.595,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,10000th fibonacci number,10000,n,4.5403,4.5822,4.6296,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,10000th fibonacci number,10000,n,4.9148,4.9655,5.0136,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,10000th fibonacci number,10000,n,7.2445,7.2879,7.335,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,12000th fibonacci number,12000,n,8.6677,8.699,8.728,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,12000th fibonacci number,12000,n,5.4267,5.466,5.5194,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,12000th fibonacci number,12000,n,5.8456,5.8914,5.9403,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,12000th fibonacci number,12000,n,11.049,11.132,11.23,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,14000th fibonacci number,14000,n,8.839,8.8909,8.9437,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,14000th fibonacci number,14000,n,5.4985,5.5579,5.6183,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,14000th fibonacci number,14000,n,5.9394,5.9999,6.0541,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,14000th fibonacci number,14000,n,10.964,11.042,11.122,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,16000th fibonacci number,16000,n,8.6459,8.7221,8.8182,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,16000th fibonacci number,16000,n,5.6057,5.6777,5.7579,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,16000th fibonacci number,16000,n,6.0342,6.1192,6.2108,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,16000th fibonacci number,16000,n,11.269,11.356,11.444,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,18000th fibonacci number,18000,n,9.0735,9.1169,9.1707,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,18000th fibonacci number,18000,n,5.6547,5.7258,5.809,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,18000th fibonacci number,18000,n,6.1164,6.1454,6.1764,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,18000th fibonacci number,18000,n,11.49,11.575,11.675,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,20000th fibonacci number,20000,n,8.9986,9.0989,9.1887,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,20000th fibonacci number,20000,n,5.6757,5.7151,5.7579,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,20000th fibonacci number,20000,n,6.1187,6.1644,6.2149,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,20000th fibonacci number,20000,n,11.383,11.452,11.522,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,22000th fibonacci number,22000,n,13.772,13.892,14.028,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,22000th fibonacci number,22000,n,7.5462,7.6503,7.7804,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,22000th fibonacci number,22000,n,8.4353,8.5422,8.6633,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,22000th fibonacci number,22000,n,19.073,19.255,19.456,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,24000th fibonacci number,24000,n,13.634,13.854,14.048,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,24000th fibonacci number,24000,n,7.6081,7.6748,7.7467,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,24000th fibonacci number,24000,n,8.4656,8.5862,8.7252,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,24000th fibonacci number,24000,n,18.88,19.012,19.157,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,26000th fibonacci number,26000,n,13.484,13.567,13.652,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,26000th fibonacci number,26000,n,7.7398,7.863,7.9722,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,26000th fibonacci number,26000,n,8.4533,8.5434,8.6527,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,26000th fibonacci number,26000,n,19.005,19.163,19.31,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,28000th fibonacci number,28000,n,13.636,13.784,13.911,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,28000th fibonacci number,28000,n,7.9074,8.0228,8.1245,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,28000th fibonacci number,28000,n,8.6068,8.7606,8.9159,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,28000th fibonacci number,28000,n,19.53,19.732,19.918,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,30000th fibonacci number,30000,n,13.56,13.724,13.842,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,30000th fibonacci number,30000,n,7.7962,7.9177,8.0456,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,30000th fibonacci number,30000,n,8.6903,8.845,8.9808,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,30000th fibonacci number,30000,n,19.549,19.695,19.834,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,32000th fibonacci number,32000,n,13.995,14.068,14.143,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,32000th fibonacci number,32000,n,8.0542,8.1824,8.3069,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,32000th fibonacci number,32000,n,8.7792,8.9488,9.1185,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,32000th fibonacci number,32000,n,19.445,19.55,19.644,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,34000th fibonacci number,34000,n,13.467,13.724,13.97,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,34000th fibonacci number,34000,n,8.0643,8.178,8.282,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,34000th fibonacci number,34000,n,8.6478,8.7854,8.9309,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,34000th fibonacci number,34000,n,19.531,19.634,19.743,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,36000th fibonacci number,36000,n,13.548,13.818,14.089,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,36000th fibonacci number,36000,n,8.1059,8.2174,8.3231,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,36000th fibonacci number,36000,n,8.8157,8.9661,9.1148,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,36000th fibonacci number,36000,n,19.372,19.519,19.643,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,38000th fibonacci number,38000,n,14.392,14.478,14.566,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,38000th fibonacci number,38000,n,8.0989,8.2238,8.3486,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,38000th fibonacci number,38000,n,9.0262,9.2182,9.4068,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,38000th fibonacci number,38000,n,19.6,19.724,19.826,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,fibonacci,40000th fibonacci number,40000,n,14.561,14.66,14.756,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt
+no-reg,fibonacci,40000th fibonacci number,40000,n,8.1886,8.3188,8.451,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/fibonacci.txt
+untouched,fibonacci,40000th fibonacci number,40000,n,9.0715,9.24,9.4062,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/fibonacci.txt
+v-reg,fibonacci,40000th fibonacci number,40000,n,19.896,19.972,20.047,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/fibonacci.txt
+32-reg,sha2_chain,1 sha2 chain cycles,1,cycles,4.1936,4.2451,4.2969,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,1 sha2 chain cycles,1,cycles,3.7666,3.8071,3.8492,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,1 sha2 chain cycles,1,cycles,3.9058,3.9314,3.9633,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,1 sha2 chain cycles,1,cycles,4.3287,4.3531,4.3771,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,2 sha2 chain cycles,2,cycles,4.4102,4.4424,4.477,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,2 sha2 chain cycles,2,cycles,3.8023,3.8296,3.8611,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,2 sha2 chain cycles,2,cycles,3.9833,4.0032,4.0244,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,2 sha2 chain cycles,2,cycles,4.6123,4.6281,4.6439,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,3 sha2 chain cycles,3,cycles,5.0379,5.0599,5.0844,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,3 sha2 chain cycles,3,cycles,4.0116,4.0474,4.0874,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,3 sha2 chain cycles,3,cycles,4.2016,4.2291,4.2622,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,3 sha2 chain cycles,3,cycles,5.5402,5.5783,5.6221,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,4 sha2 chain cycles,4,cycles,5.2512,5.2847,5.3187,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,4 sha2 chain cycles,4,cycles,4.0572,4.0642,4.0713,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,4 sha2 chain cycles,4,cycles,4.311,4.3307,4.3505,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,4 sha2 chain cycles,4,cycles,5.7978,5.8328,5.8688,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,5 sha2 chain cycles,5,cycles,6.3697,6.403,6.4384,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,5 sha2 chain cycles,5,cycles,4.4948,4.5361,4.5826,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,5 sha2 chain cycles,5,cycles,4.8471,4.8922,4.9374,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,5 sha2 chain cycles,5,cycles,7.529,7.5638,7.6025,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,6 sha2 chain cycles,6,cycles,6.5355,6.5842,6.6347,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,6 sha2 chain cycles,6,cycles,4.5388,4.5698,4.602,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,6 sha2 chain cycles,6,cycles,4.8893,4.9237,4.9638,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,6 sha2 chain cycles,6,cycles,7.8012,7.8339,7.8682,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,7 sha2 chain cycles,7,cycles,6.7947,6.8342,6.8772,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,7 sha2 chain cycles,7,cycles,4.5701,4.6038,4.6415,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,7 sha2 chain cycles,7,cycles,4.9085,4.9495,4.992,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,7 sha2 chain cycles,7,cycles,7.9531,7.9852,8.013,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,8 sha2 chain cycles,8,cycles,7.0365,7.0996,7.1652,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,8 sha2 chain cycles,8,cycles,4.6421,4.6882,4.7327,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,8 sha2 chain cycles,8,cycles,4.925,4.9582,4.9951,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,8 sha2 chain cycles,8,cycles,8.2081,8.2625,8.3074,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,9 sha2 chain cycles,9,cycles,9.3848,9.4354,9.4837,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,9 sha2 chain cycles,9,cycles,5.4616,5.4925,5.5221,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,9 sha2 chain cycles,9,cycles,5.9566,5.9919,6.0293,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,9 sha2 chain cycles,9,cycles,11.638,11.727,11.815,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,10 sha2 chain cycles,10,cycles,9.4388,9.4919,9.5452,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,10 sha2 chain cycles,10,cycles,5.5419,5.5873,5.642,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,10 sha2 chain cycles,10,cycles,5.9902,6.0136,6.0391,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,10 sha2 chain cycles,10,cycles,11.921,11.957,11.991,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,11 sha2 chain cycles,11,cycles,9.7155,9.767,9.8146,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,11 sha2 chain cycles,11,cycles,5.5575,5.6061,5.6612,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,11 sha2 chain cycles,11,cycles,5.9028,5.9841,6.0631,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,11 sha2 chain cycles,11,cycles,12.002,12.054,12.11,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,12 sha2 chain cycles,12,cycles,9.9398,10.003,10.069,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,12 sha2 chain cycles,12,cycles,5.6202,5.6755,5.7481,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,12 sha2 chain cycles,12,cycles,6.0514,6.0981,6.1426,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,12 sha2 chain cycles,12,cycles,12.248,12.305,12.359,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,13 sha2 chain cycles,13,cycles,10.176,10.217,10.258,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,13 sha2 chain cycles,13,cycles,5.6998,5.7393,5.7777,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,13 sha2 chain cycles,13,cycles,6.1093,6.1543,6.2011,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,13 sha2 chain cycles,13,cycles,12.404,12.466,12.533,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,14 sha2 chain cycles,14,cycles,10.275,10.326,10.369,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,14 sha2 chain cycles,14,cycles,5.836,5.9128,5.9872,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,14 sha2 chain cycles,14,cycles,6.1495,6.169,6.1899,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,14 sha2 chain cycles,14,cycles,12.624,12.679,12.732,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,15 sha2 chain cycles,15,cycles,10.487,10.536,10.585,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,15 sha2 chain cycles,15,cycles,5.8151,5.8759,5.9321,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,15 sha2 chain cycles,15,cycles,6.2986,6.333,6.3697,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,15 sha2 chain cycles,15,cycles,12.808,12.871,12.935,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,16 sha2 chain cycles,16,cycles,10.725,10.776,10.827,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,16 sha2 chain cycles,16,cycles,5.7887,5.8578,5.9394,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,16 sha2 chain cycles,16,cycles,6.3438,6.3748,6.4055,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,16 sha2 chain cycles,16,cycles,13.046,13.105,13.158,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,17 sha2 chain cycles,17,cycles,10.959,11.006,11.051,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,17 sha2 chain cycles,17,cycles,6.0071,6.07,6.1268,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,17 sha2 chain cycles,17,cycles,6.3573,6.3951,6.4384,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,17 sha2 chain cycles,17,cycles,13.304,13.345,13.388,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,18 sha2 chain cycles,18,cycles,15.889,15.963,16.03,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,18 sha2 chain cycles,18,cycles,7.7869,7.9025,8.0223,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,18 sha2 chain cycles,18,cycles,8.4779,8.5876,8.7162,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,18 sha2 chain cycles,18,cycles,21.479,21.754,22.024,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,19 sha2 chain cycles,19,cycles,16.194,16.497,16.724,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,19 sha2 chain cycles,19,cycles,7.7262,7.8281,7.9528,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,19 sha2 chain cycles,19,cycles,8.4401,8.4891,8.5541,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,19 sha2 chain cycles,19,cycles,21.635,21.867,22.079,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,20 sha2 chain cycles,20,cycles,16.526,16.647,16.783,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,20 sha2 chain cycles,20,cycles,7.6838,7.8125,7.9513,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,20 sha2 chain cycles,20,cycles,8.4842,8.5434,8.6167,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,20 sha2 chain cycles,20,cycles,21.359,21.597,21.827,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,21 sha2 chain cycles,21,cycles,16.809,16.929,17.037,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,21 sha2 chain cycles,21,cycles,7.7327,7.8291,7.9445,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,21 sha2 chain cycles,21,cycles,8.515,8.6505,8.8056,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,21 sha2 chain cycles,21,cycles,21.493,21.575,21.65,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,22 sha2 chain cycles,22,cycles,16.976,17.07,17.17,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,22 sha2 chain cycles,22,cycles,7.9124,8.0809,8.2694,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,22 sha2 chain cycles,22,cycles,8.5156,8.6165,8.7255,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,22 sha2 chain cycles,22,cycles,21.846,21.932,22.019,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,23 sha2 chain cycles,23,cycles,16.873,17.134,17.37,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,23 sha2 chain cycles,23,cycles,7.8764,7.9728,8.0801,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,23 sha2 chain cycles,23,cycles,8.5948,8.7038,8.8179,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,23 sha2 chain cycles,23,cycles,21.735,21.833,21.932,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,24 sha2 chain cycles,24,cycles,17.315,17.436,17.545,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,24 sha2 chain cycles,24,cycles,7.9055,8.0091,8.1256,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,24 sha2 chain cycles,24,cycles,8.5797,8.6575,8.7393,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,24 sha2 chain cycles,24,cycles,21.488,21.696,21.864,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+32-reg,sha2_chain,25 sha2 chain cycles,25,cycles,17.557,17.664,17.768,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt
+no-reg,sha2_chain,25 sha2 chain cycles,25,cycles,8.0075,8.1292,8.2588,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha2_chain.txt
+untouched,sha2_chain,25 sha2 chain cycles,25,cycles,8.7522,8.9142,9.0798,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha2_chain.txt
+v-reg,sha2_chain,25 sha2 chain cycles,25,cycles,22.307,22.409,22.498,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha2_chain.txt
+no-reg,sha3_chain,1 sha3 chain cycles,1,cycles,4.0073,4.0232,4.0396,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,1 sha3 chain cycles,1,cycles,4.1803,4.2064,4.2335,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,1 sha3 chain cycles,1,cycles,5.4646,5.5029,5.5492,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,2 sha3 chain cycles,2,cycles,4.5362,4.5655,4.599,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,2 sha3 chain cycles,2,cycles,4.8014,4.8318,4.865,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,2 sha3 chain cycles,2,cycles,7.6866,7.7267,7.7728,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,3 sha3 chain cycles,3,cycles,5.4715,5.5129,5.5702,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,3 sha3 chain cycles,3,cycles,5.8709,5.9115,5.9545,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,3 sha3 chain cycles,3,cycles,11.698,11.81,11.924,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,4 sha3 chain cycles,4,cycles,5.6644,5.7347,5.808,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,4 sha3 chain cycles,4,cycles,6.0082,6.0486,6.0905,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,4 sha3 chain cycles,4,cycles,12.489,12.562,12.636,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,5 sha3 chain cycles,5,cycles,5.8294,5.8796,5.9314,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,5 sha3 chain cycles,5,cycles,6.154,6.2087,6.2667,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,5 sha3 chain cycles,5,cycles,13.286,13.353,13.433,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,6 sha3 chain cycles,6,cycles,7.8351,7.9581,8.1014,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,6 sha3 chain cycles,6,cycles,8.3168,8.3944,8.4737,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,6 sha3 chain cycles,6,cycles,22.176,22.34,22.544,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,7 sha3 chain cycles,7,cycles,7.815,7.9103,8.0196,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,7 sha3 chain cycles,7,cycles,8.6382,8.7667,8.9091,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,7 sha3 chain cycles,7,cycles,22.35,22.476,22.612,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,8 sha3 chain cycles,8,cycles,8.2282,8.3308,8.4145,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,8 sha3 chain cycles,8,cycles,8.8171,8.9181,9.0252,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,8 sha3 chain cycles,8,cycles,23.101,23.231,23.363,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,9 sha3 chain cycles,9,cycles,8.3402,8.4487,8.5455,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,9 sha3 chain cycles,9,cycles,9.0217,9.2442,9.4625,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,9 sha3 chain cycles,9,cycles,23.451,23.546,23.656,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,10 sha3 chain cycles,10,cycles,8.6345,8.7118,8.796,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,10 sha3 chain cycles,10,cycles,9.299,9.4241,9.567,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,10 sha3 chain cycles,10,cycles,23.628,23.717,23.81,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,11 sha3 chain cycles,11,cycles,8.7069,8.8238,8.9371,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,11 sha3 chain cycles,11,cycles,9.493,9.6048,9.7009,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+v-reg,sha3_chain,11 sha3 chain cycles,11,cycles,24.275,24.347,24.417,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/v-reg/sha3_chain.txt
+no-reg,sha3_chain,12 sha3 chain cycles,12,cycles,12.024,12.125,12.214,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,12 sha3 chain cycles,12,cycles,13.254,13.378,13.49,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,13 sha3 chain cycles,13,cycles,11.695,11.796,11.897,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,13 sha3 chain cycles,13,cycles,13.233,13.331,13.417,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,14 sha3 chain cycles,14,cycles,12.03,12.112,12.194,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,14 sha3 chain cycles,14,cycles,13.368,13.452,13.524,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,15 sha3 chain cycles,15,cycles,12.177,12.236,12.292,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,15 sha3 chain cycles,15,cycles,13.546,13.643,13.747,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,16 sha3 chain cycles,16,cycles,12.272,12.369,12.483,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,16 sha3 chain cycles,16,cycles,13.698,13.841,13.974,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,17 sha3 chain cycles,17,cycles,12.422,12.493,12.559,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,17 sha3 chain cycles,17,cycles,13.678,13.736,13.796,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,18 sha3 chain cycles,18,cycles,12.567,12.686,12.811,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,18 sha3 chain cycles,18,cycles,13.914,14.036,14.152,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,19 sha3 chain cycles,19,cycles,12.771,12.873,12.959,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,19 sha3 chain cycles,19,cycles,14.046,14.185,14.327,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,20 sha3 chain cycles,20,cycles,12.894,12.986,13.077,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,20 sha3 chain cycles,20,cycles,14.401,14.479,14.562,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,21 sha3 chain cycles,21,cycles,12.964,13.089,13.204,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,21 sha3 chain cycles,21,cycles,14.495,14.581,14.65,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,22 sha3 chain cycles,22,cycles,13.077,13.183,13.287,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,22 sha3 chain cycles,22,cycles,14.379,14.546,14.7,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,23 sha3 chain cycles,23,cycles,13.165,13.261,13.345,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,23 sha3 chain cycles,23,cycles,14.668,14.787,14.888,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,24 sha3 chain cycles,24,cycles,20.683,20.811,20.934,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,24 sha3 chain cycles,24,cycles,23.519,23.682,23.828,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt
+no-reg,sha3_chain,25 sha3 chain cycles,25,cycles,20.628,20.796,20.957,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/no-reg/sha3_chain.txt
+untouched,sha3_chain,25 sha3 chain cycles,25,cycles,23.312,23.433,23.554,s,/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/untouched/sha3_chain.txt

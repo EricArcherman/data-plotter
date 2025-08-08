@@ -1,0 +1,278 @@
+   Compiling memchr v2.7.5
+   Compiling glob v0.3.2
+   Compiling rustix v0.38.44
+   Compiling prettyplease v0.2.36
+   Compiling libc v0.2.174
+   Compiling regex-syntax v0.8.5
+   Compiling linux-raw-sys v0.4.15
+   Compiling bitflags v2.9.1
+   Compiling minimal-lexical v0.2.1
+   Compiling either v1.15.0
+   Compiling libloading v0.8.8
+   Compiling home v0.5.11
+   Compiling bindgen v0.69.5
+   Compiling log v0.4.27
+   Compiling lazycell v1.3.0
+   Compiling rustc-hash v1.1.0
+   Compiling lazy_static v1.5.0
+warning: variable `num_memory_accesses` is assigned to, but never used
+   --> jolt-core/src/host/mod.rs:240:17
+    |
+240 |         let mut num_memory_accesses = 0;
+    |                 ^^^^^^^^^^^^^^^^^^^
+    |
+    = note: consider using `_num_memory_accesses` instead
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: method `compute_batch` is never used
+   --> jolt-core/src/r1cs/builder.rs:175:8
+    |
+85  | impl<F: JoltField> AuxComputation<F> {
+    | ------------------------------------ method in this implementation
+...
+175 |     fn compute_batch(&self, inputs: Vec<&[F]>, batch_size: usize) -> Vec<F> {
+    |        ^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` on by default
+
+warning: `jolt-core` (lib) generated 2 warnings
+   Compiling iai-callgrind-macros v0.2.0
+   Compiling iai-callgrind-runner v0.10.2
+   Compiling itertools v0.12.1
+   Compiling clang-sys v1.8.1
+   Compiling aho-corasick v1.1.3
+   Compiling nom v7.1.3
+   Compiling regex-automata v0.4.9
+   Compiling cexpr v0.6.0
+   Compiling which v4.4.2
+   Compiling regex v1.11.1
+   Compiling iai-callgrind v0.10.2
+   Compiling jolt-core v0.1.0 (/jolt-benchmarks/jolt-core)
+warning: unused import: `Fr`
+ --> jolt-core/primes-benches/fibonacci.rs:1:24
+  |
+1 | use ark_bn254::{Bn254, Fr};
+  |                        ^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: `jolt-core` (bench "fibonacci") generated 1 warning (run `cargo fix --bench "fibonacci"` to apply 1 suggestion)
+    Finished `bench` profile [optimized + debuginfo] target(s) in 1m 34s
+Benchmarking 100th fibonacci number
+Benchmarking 100th fibonacci number: Warming up for 5.0000 s
+Attempt 1/5
+"riscv32im-jolt-zkvm-elf" toolchain installed successfully at "/root/.jolt"
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 257.3s, or reduce sample count to 10.
+Benchmarking 100th fibonacci number: Collecting 11 samples in estimated 257.29 s (11 iterations)
+Benchmarking 100th fibonacci number: Analyzing
+100th fibonacci number  time:   [3.6382 s 3.6664 s 3.6988 s]
+
+Benchmarking 200th fibonacci number
+Benchmarking 200th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 40.4s, or reduce sample count to 10.
+Benchmarking 200th fibonacci number: Collecting 11 samples in estimated 40.355 s (11 iterations)
+Benchmarking 200th fibonacci number: Analyzing
+200th fibonacci number  time:   [3.6548 s 3.6850 s 3.7173 s]
+
+Benchmarking 400th fibonacci number
+Benchmarking 400th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 40.6s, or reduce sample count to 10.
+Benchmarking 400th fibonacci number: Collecting 11 samples in estimated 40.583 s (11 iterations)
+Benchmarking 400th fibonacci number: Analyzing
+400th fibonacci number  time:   [3.6942 s 3.7254 s 3.7599 s]
+
+Benchmarking 700th fibonacci number
+Benchmarking 700th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 41.7s, or reduce sample count to 10.
+Benchmarking 700th fibonacci number: Collecting 11 samples in estimated 41.679 s (11 iterations)
+Benchmarking 700th fibonacci number: Analyzing
+700th fibonacci number  time:   [3.7406 s 3.7678 s 3.8038 s]
+
+Benchmarking 1000th fibonacci number
+Benchmarking 1000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 42.3s, or reduce sample count to 10.
+Benchmarking 1000th fibonacci number: Collecting 11 samples in estimated 42.318 s (11 iterations)
+Benchmarking 1000th fibonacci number: Analyzing
+1000th fibonacci number time:   [3.7927 s 3.8192 s 3.8469 s]
+
+Benchmarking 2000th fibonacci number
+Benchmarking 2000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 44.6s, or reduce sample count to 10.
+Benchmarking 2000th fibonacci number: Collecting 11 samples in estimated 44.608 s (11 iterations)
+Benchmarking 2000th fibonacci number: Analyzing
+2000th fibonacci number time:   [3.9783 s 4.0086 s 4.0477 s]
+
+Benchmarking 4000th fibonacci number
+Benchmarking 4000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 47.1s, or reduce sample count to 10.
+Benchmarking 4000th fibonacci number: Collecting 11 samples in estimated 47.144 s (11 iterations)
+Benchmarking 4000th fibonacci number: Analyzing
+4000th fibonacci number time:   [4.2576 s 4.2783 s 4.2971 s]
+
+Benchmarking 6000th fibonacci number
+Benchmarking 6000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 52.8s, or reduce sample count to 10.
+Benchmarking 6000th fibonacci number: Collecting 11 samples in estimated 52.781 s (11 iterations)
+Benchmarking 6000th fibonacci number: Analyzing
+6000th fibonacci number time:   [4.7662 s 4.8204 s 4.8766 s]
+
+Benchmarking 8000th fibonacci number
+Benchmarking 8000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 53.4s, or reduce sample count to 10.
+Benchmarking 8000th fibonacci number: Collecting 11 samples in estimated 53.393 s (11 iterations)
+Benchmarking 8000th fibonacci number: Analyzing
+8000th fibonacci number time:   [4.8493 s 4.8764 s 4.9033 s]
+
+Benchmarking 10000th fibonacci number
+Benchmarking 10000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 53.8s, or reduce sample count to 10.
+Benchmarking 10000th fibonacci number: Collecting 11 samples in estimated 53.799 s (11 iterations)
+Benchmarking 10000th fibonacci number: Analyzing
+10000th fibonacci number
+                        time:   [4.9148 s 4.9655 s 5.0136 s]
+
+Benchmarking 12000th fibonacci number
+Benchmarking 12000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 65.3s, or reduce sample count to 10.
+Benchmarking 12000th fibonacci number: Collecting 11 samples in estimated 65.304 s (11 iterations)
+Benchmarking 12000th fibonacci number: Analyzing
+12000th fibonacci number
+                        time:   [5.8456 s 5.8914 s 5.9403 s]
+
+Benchmarking 14000th fibonacci number
+Benchmarking 14000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 65.7s, or reduce sample count to 10.
+Benchmarking 14000th fibonacci number: Collecting 11 samples in estimated 65.651 s (11 iterations)
+Benchmarking 14000th fibonacci number: Analyzing
+14000th fibonacci number
+                        time:   [5.9394 s 5.9999 s 6.0541 s]
+
+Benchmarking 16000th fibonacci number
+Benchmarking 16000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 66.5s, or reduce sample count to 10.
+Benchmarking 16000th fibonacci number: Collecting 11 samples in estimated 66.488 s (11 iterations)
+Benchmarking 16000th fibonacci number: Analyzing
+16000th fibonacci number
+                        time:   [6.0342 s 6.1192 s 6.2108 s]
+
+Benchmarking 18000th fibonacci number
+Benchmarking 18000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 69.6s, or reduce sample count to 10.
+Benchmarking 18000th fibonacci number: Collecting 11 samples in estimated 69.610 s (11 iterations)
+Benchmarking 18000th fibonacci number: Analyzing
+18000th fibonacci number
+                        time:   [6.1164 s 6.1454 s 6.1764 s]
+
+Benchmarking 20000th fibonacci number
+Benchmarking 20000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 68.5s, or reduce sample count to 10.
+Benchmarking 20000th fibonacci number: Collecting 11 samples in estimated 68.486 s (11 iterations)
+Benchmarking 20000th fibonacci number: Analyzing
+20000th fibonacci number
+                        time:   [6.1187 s 6.1644 s 6.2149 s]
+
+Benchmarking 22000th fibonacci number
+Benchmarking 22000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 95.4s, or reduce sample count to 10.
+Benchmarking 22000th fibonacci number: Collecting 11 samples in estimated 95.392 s (11 iterations)
+Benchmarking 22000th fibonacci number: Analyzing
+22000th fibonacci number
+                        time:   [8.4353 s 8.5422 s 8.6633 s]
+
+Benchmarking 24000th fibonacci number
+Benchmarking 24000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 98.4s, or reduce sample count to 10.
+Benchmarking 24000th fibonacci number: Collecting 11 samples in estimated 98.357 s (11 iterations)
+Benchmarking 24000th fibonacci number: Analyzing
+24000th fibonacci number
+                        time:   [8.4656 s 8.5862 s 8.7252 s]
+
+Benchmarking 26000th fibonacci number
+Benchmarking 26000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 92.5s, or reduce sample count to 10.
+Benchmarking 26000th fibonacci number: Collecting 11 samples in estimated 92.546 s (11 iterations)
+Benchmarking 26000th fibonacci number: Analyzing
+26000th fibonacci number
+                        time:   [8.4533 s 8.5434 s 8.6527 s]
+
+Benchmarking 28000th fibonacci number
+Benchmarking 28000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 93.0s, or reduce sample count to 10.
+Benchmarking 28000th fibonacci number: Collecting 11 samples in estimated 93.030 s (11 iterations)
+Benchmarking 28000th fibonacci number: Analyzing
+28000th fibonacci number
+                        time:   [8.6068 s 8.7606 s 8.9159 s]
+
+Benchmarking 30000th fibonacci number
+Benchmarking 30000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 100.1s, or reduce sample count to 10.
+Benchmarking 30000th fibonacci number: Collecting 11 samples in estimated 100.09 s (11 iterations)
+Benchmarking 30000th fibonacci number: Analyzing
+30000th fibonacci number
+                        time:   [8.6903 s 8.8450 s 8.9808 s]
+
+Benchmarking 32000th fibonacci number
+Benchmarking 32000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 98.4s, or reduce sample count to 10.
+Benchmarking 32000th fibonacci number: Collecting 11 samples in estimated 98.350 s (11 iterations)
+Benchmarking 32000th fibonacci number: Analyzing
+32000th fibonacci number
+                        time:   [8.7792 s 8.9488 s 9.1185 s]
+
+Benchmarking 34000th fibonacci number
+Benchmarking 34000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 96.0s, or reduce sample count to 10.
+Benchmarking 34000th fibonacci number: Collecting 11 samples in estimated 96.027 s (11 iterations)
+Benchmarking 34000th fibonacci number: Analyzing
+34000th fibonacci number
+                        time:   [8.6478 s 8.7854 s 8.9309 s]
+
+Benchmarking 36000th fibonacci number
+Benchmarking 36000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 94.8s, or reduce sample count to 10.
+Benchmarking 36000th fibonacci number: Collecting 11 samples in estimated 94.761 s (11 iterations)
+Benchmarking 36000th fibonacci number: Analyzing
+36000th fibonacci number
+                        time:   [8.8157 s 8.9661 s 9.1148 s]
+
+Benchmarking 38000th fibonacci number
+Benchmarking 38000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 105.9s, or reduce sample count to 10.
+Benchmarking 38000th fibonacci number: Collecting 11 samples in estimated 105.86 s (11 iterations)
+Benchmarking 38000th fibonacci number: Analyzing
+38000th fibonacci number
+                        time:   [9.0262 s 9.2182 s 9.4068 s]
+
+Benchmarking 40000th fibonacci number
+Benchmarking 40000th fibonacci number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 101.9s, or reduce sample count to 10.
+Benchmarking 40000th fibonacci number: Collecting 11 samples in estimated 101.92 s (11 iterations)
+Benchmarking 40000th fibonacci number: Analyzing
+40000th fibonacci number
+                        time:   [9.0715 s 9.2400 s 9.4062 s]
+

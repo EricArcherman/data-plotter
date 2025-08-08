@@ -1,0 +1,247 @@
+warning: method `compute_batch` is never used
+   --> jolt-core/src/r1cs/builder.rs:175:8
+    |
+85  | impl<F: JoltField> AuxComputation<F> {
+    | ------------------------------------ method in this implementation
+...
+175 |     fn compute_batch(&self, inputs: Vec<&[F]>, batch_size: usize) -> Vec<F> {
+    |        ^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` on by default
+
+warning: `jolt-core` (lib) generated 1 warning
+   Compiling jolt-core v0.1.0 (/jolt-benchmarks/jolt-core)
+    Finished `bench` profile [optimized + debuginfo] target(s) in 1m 30s
+Benchmarking 1 sha3 chain cycles
+Benchmarking 1 sha3 chain cycles: Warming up for 5.0000 s
+
+thread '<unnamed>' panicked at jolt-core/src/host/mod.rs:248:13:
+assertion failed: output_len == 1
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:697:5
+   1: core::panicking::panic_fmt
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/panicking.rs:75:14
+   2: core::panicking::panic
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/panicking.rs:145:5
+   3: jolt_core::host::Program::trace::{{closure}}
+             at ./src/host/mod.rs:248:13
+   4: <rayon::iter::flat_map::FlatMapFolder<C,F,<C as rayon::iter::plumbing::Consumer<<U as rayon::iter::IntoParallelIterator>::Item>>::Result> as rayon::iter::plumbing::Folder<T>>::consume
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/flat_map.rs:125:24
+   5: rayon::iter::plumbing::Folder::consume_iter
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:178:25
+   6: rayon::iter::plumbing::Producer::fold_with
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:109:16
+   7: rayon::iter::plumbing::bridge_producer_consumer::helper
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:437:22
+   8: rayon::iter::plumbing::bridge_producer_consumer::helper::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:426:21
+   9: rayon_core::join::join_context::call_b::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:129:25
+  10: rayon_core::job::StackJob<L,F,R>::run_inline
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/job.rs:102:9
+  11: rayon_core::join::join_context::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:159:42
+  12: rayon_core::registry::in_worker
+  13: rayon_core::join::join_context
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:132:5
+  14: rayon::iter::plumbing::bridge_producer_consumer::helper
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:415:47
+  15: rayon::iter::plumbing::bridge_producer_consumer::helper::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:417:21
+  16: rayon_core::join::join_context::call_a::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:124:17
+  17: <core::panic::unwind_safe::AssertUnwindSafe<F> as core::ops::function::FnOnce<()>>::call_once
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/panic/unwind_safe.rs:272:9
+  18: std::panicking::catch_unwind::do_call
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:589:40
+  19: std::panicking::catch_unwind
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:552:19
+  20: std::panic::catch_unwind
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panic.rs:359:14
+  21: rayon_core::unwind::halt_unwinding
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/unwind.rs:17:5
+  22: rayon_core::join::join_context::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:142:24
+  23: rayon_core::registry::in_worker
+  24: rayon_core::join::join_context
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:132:5
+  25: rayon::iter::plumbing::bridge_producer_consumer::helper
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:415:47
+  26: rayon::iter::plumbing::bridge_producer_consumer::helper::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:417:21
+  27: rayon_core::join::join_context::call_a::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:124:17
+  28: <core::panic::unwind_safe::AssertUnwindSafe<F> as core::ops::function::FnOnce<()>>::call_once
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/panic/unwind_safe.rs:272:9
+  29: std::panicking::catch_unwind::do_call
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:589:40
+  30: std::panicking::catch_unwind
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:552:19
+  31: std::panic::catch_unwind
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panic.rs:359:14
+  32: rayon_core::unwind::halt_unwinding
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/unwind.rs:17:5
+  33: rayon_core::join::join_context::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:142:24
+  34: rayon_core::registry::in_worker
+  35: rayon_core::join::join_context
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:132:5
+  36: rayon::iter::plumbing::bridge_producer_consumer::helper
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:415:47
+  37: rayon::iter::plumbing::bridge_producer_consumer::helper::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:426:21
+  38: rayon_core::join::join_context::call_b::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:129:25
+  39: rayon_core::job::StackJob<L,F,R>::run_inline
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/job.rs:102:9
+  40: rayon_core::join::join_context::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:159:42
+  41: rayon_core::registry::in_worker
+  42: rayon_core::join::join_context
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:132:5
+  43: rayon::iter::plumbing::bridge_producer_consumer::helper
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:415:47
+  44: rayon::iter::plumbing::bridge_producer_consumer::helper::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:417:21
+  45: rayon_core::join::join_context::call_a::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:124:17
+  46: <core::panic::unwind_safe::AssertUnwindSafe<F> as core::ops::function::FnOnce<()>>::call_once
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/panic/unwind_safe.rs:272:9
+  47: std::panicking::catch_unwind::do_call
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:589:40
+  48: std::panicking::catch_unwind
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:552:19
+  49: std::panic::catch_unwind
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panic.rs:359:14
+  50: rayon_core::unwind::halt_unwinding
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/unwind.rs:17:5
+  51: rayon_core::join::join_context::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:142:24
+  52: rayon_core::registry::in_worker
+  53: rayon_core::join::join_context
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:132:5
+  54: rayon::iter::plumbing::bridge_producer_consumer::helper
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:415:47
+  55: rayon::iter::plumbing::bridge_producer_consumer::helper::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:426:21
+  56: rayon_core::join::join_context::call_b::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:129:25
+  57: rayon_core::job::StackJob<L,F,R>::run_inline
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/job.rs:102:9
+  58: rayon_core::join::join_context::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:159:42
+  59: rayon_core::registry::in_worker
+  60: rayon_core::join::join_context
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:132:5
+  61: rayon::iter::plumbing::bridge_producer_consumer::helper
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:415:47
+  62: rayon::iter::plumbing::bridge_producer_consumer::helper::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.10.0/src/iter/plumbing/mod.rs:426:21
+  63: rayon_core::join::join_context::call_b::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/join/mod.rs:129:25
+  64: rayon_core::job::JobResult<T>::call::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/job.rs:218:41
+  65: <core::panic::unwind_safe::AssertUnwindSafe<F> as core::ops::function::FnOnce<()>>::call_once
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/panic/unwind_safe.rs:272:9
+  66: std::panicking::catch_unwind::do_call
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:589:40
+  67: std::panicking::catch_unwind
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:552:19
+  68: std::panic::catch_unwind
+             at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panic.rs:359:14
+  69: rayon_core::unwind::halt_unwinding
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/unwind.rs:17:5
+  70: rayon_core::job::JobResult<T>::call
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/job.rs:218:15
+  71: <rayon_core::job::StackJob<L,F,R> as rayon_core::job::Job>::execute
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/job.rs:120:32
+  72: rayon_core::job::JobRef::execute
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/job.rs:64:9
+  73: rayon_core::registry::WorkerThread::execute
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/registry.rs:860:13
+  74: rayon_core::registry::WorkerThread::wait_until_cold
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/registry.rs:794:26
+  75: rayon_core::registry::WorkerThread::wait_until
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/registry.rs:769:18
+  76: rayon_core::registry::WorkerThread::wait_until_out_of_work
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/registry.rs:818:14
+  77: rayon_core::registry::main_loop
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/registry.rs:923:19
+  78: rayon_core::registry::ThreadBuilder::run
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/registry.rs:53:18
+  79: <rayon_core::registry::DefaultSpawn as rayon_core::registry::ThreadSpawn>::spawn::{{closure}}
+             at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.12.1/src/registry.rs:98:27
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+thread 'main' panicked at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo-criterion-1.1.0/src/bench_target.rs:306:26:
+Unexpected message FinishedBenchmarkGroup { group: "1 sha3 chain cycles" }
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+   1: core::panicking::panic_fmt
+   2: cargo_criterion::bench_target::BenchTarget::communicate
+   3: cargo_criterion::bench_target::BenchTarget::execute
+   4: cargo_criterion::main
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+thread 'main' panicked at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/criterion-0.5.1/src/benchmark_group.rs:380:18:
+called `Result::unwrap()` on an `Err` value: Io(Error { kind: UnexpectedEof, message: "failed to fill whole buffer" })
+stack backtrace:
+   0:     0x55f9bc2ecc26 - std::backtrace_rs::backtrace::libunwind::trace::h9af8de1bb7a17621
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/../../backtrace/src/backtrace/libunwind.rs:117:9
+   1:     0x55f9bc2ecc26 - std::backtrace_rs::backtrace::trace_unsynchronized::h58407e9959d6a6d2
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/../../backtrace/src/backtrace/mod.rs:66:14
+   2:     0x55f9bc2ecc26 - std::sys::backtrace::_print_fmt::hd7c5c06220ef66b5
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/sys/backtrace.rs:66:9
+   3:     0x55f9bc2ecc26 - <std::sys::backtrace::BacktraceLock::print::DisplayBacktrace as core::fmt::Display>::fmt::h19cf267a69f554f4
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/sys/backtrace.rs:39:26
+   4:     0x55f9bc0bd523 - core::fmt::rt::Argument::fmt::hb31b9f73a4045bb2
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/fmt/rt.rs:173:76
+   5:     0x55f9bc0bd523 - core::fmt::write::hb8432f4f418a4cbb
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/fmt/mod.rs:1460:25
+   6:     0x55f9bc2ec31f - std::io::default_write_fmt::h3a3fbed14f3539d7
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/io/mod.rs:639:11
+   7:     0x55f9bc2ec31f - std::io::Write::write_fmt::h26b8140c7e286da3
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/io/mod.rs:1954:13
+   8:     0x55f9bc2ec973 - std::sys::backtrace::BacktraceLock::print::hceb5e43a3264b978
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/sys/backtrace.rs:42:9
+   9:     0x55f9bc2ebe33 - std::panicking::default_hook::{{closure}}::h777b3b3f382f0330
+  10:     0x55f9bc2ebe33 - std::panicking::default_hook::h7a8c6dca3aa5f7d6
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:327:9
+  11:     0x55f9bc2ebe33 - std::panicking::rust_panic_with_hook::h182f60f0467d326e
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:833:13
+  12:     0x55f9bc32a138 - std::panicking::begin_panic_handler::{{closure}}::h47abc8b78d5d5acc
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:706:13
+  13:     0x55f9bc32a099 - std::sys::backtrace::__rust_end_short_backtrace::h70f5442660310bc8
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/sys/backtrace.rs:168:18
+  14:     0x55f9bc32b44c - __rustc[90fd524071601a38]::rust_begin_unwind
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/panicking.rs:697:5
+  15:     0x55f9bc0bbf2f - core::panicking::panic_fmt::h9f95679c9d4adb8a
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/panicking.rs:75:14
+  16:     0x55f9bc0c2125 - core::result::unwrap_failed::hcfbc3ec96a5ccbdf
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/result.rs:1761:5
+  17:     0x55f9bbf02365 - core::result::Result<T,E>::unwrap::h6d1ff7d1579aa0c1
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/result.rs:1167:23
+  18:     0x55f9bbf02365 - <criterion::benchmark_group::BenchmarkGroup<M> as core::ops::drop::Drop>::drop::h372d6c2fa599e681
+                               at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/criterion-0.5.1/src/benchmark_group.rs:380:18
+  19:     0x55f9bbf02365 - core::ptr::drop_in_place<criterion::benchmark_group::BenchmarkGroup<criterion::measurement::WallTime>>::h4961177689ea2245
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/ptr/mod.rs:799:1
+  20:     0x55f9bc072941 - criterion::Criterion<M>::bench_function::h184d93127ca324f4
+                               at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/criterion-0.5.1/src/lib.rs:1221:59
+  21:     0x55f9bc072941 - sha3_chain::benchmark_sha3_chain::h1a3bb04c17208e3e
+                               at /jolt-benchmarks/jolt-core/primes-benches/sha3_chain.rs:51:7
+  22:     0x55f9bc072941 - sha3_chain::main::hb3b878425fd5e26e
+                               at /jolt-benchmarks/jolt-core/primes-benches/sha3_chain.rs:66:9
+  23:     0x55f9bbef7413 - core::ops::function::FnOnce::call_once::h6b102d5fc06bb621
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/core/src/ops/function.rs:250:5
+  24:     0x55f9bbef7413 - std::sys::backtrace::__rust_begin_short_backtrace::h3d3ae39d4029ee02
+                               at /rustc/255aa220821c05c3eac7605fce4ea1c9ab2cbdb4/library/std/src/sys/backtrace.rs:152:18
+  25:     0x55f9bc072f63 - main
+  26:     0x7fea5d125d90 - <unknown>
+  27:     0x7fea5d125e40 - __libc_start_main
+  28:     0x55f9bbe2ef75 - _start
+  29:                0x0 - <unknown>
+
+thread 'main' panicked at library/core/src/panicking.rs:233:5:
+panic in a destructor during cleanup
+thread caused non-unwinding panic. aborting.

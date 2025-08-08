@@ -1,0 +1,204 @@
+(unused_variables)]` on by default
+
+warning: `jolt-core` (lib) generated 1 warning
+   Compiling jolt-core v0.1.0 (/jolt-benchmarks/jolt-core)
+    Finished `bench` profile [optimized + debuginfo] target(s) in 1m 24s
+Benchmarking 1 sha3 chain cycles
+Benchmarking 1 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 110.2s, or reduce sample count to 10.
+Benchmarking 1 sha3 chain cycles: Collecting 11 samples in estimated 110.23 s (11 iterations)
+Benchmarking 1 sha3 chain cycles: Analyzing
+1 sha3 chain cycles     time:   [4.0073 s 4.0232 s 4.0396 s]
+
+Benchmarking 2 sha3 chain cycles
+Benchmarking 2 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 49.6s, or reduce sample count to 10.
+Benchmarking 2 sha3 chain cycles: Collecting 11 samples in estimated 49.566 s (11 iterations)
+Benchmarking 2 sha3 chain cycles: Analyzing
+2 sha3 chain cycles     time:   [4.5362 s 4.5655 s 4.5990 s]
+
+Benchmarking 3 sha3 chain cycles
+Benchmarking 3 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 60.9s, or reduce sample count to 10.
+Benchmarking 3 sha3 chain cycles: Collecting 11 samples in estimated 60.897 s (11 iterations)
+Benchmarking 3 sha3 chain cycles: Analyzing
+3 sha3 chain cycles     time:   [5.4715 s 5.5129 s 5.5702 s]
+
+Benchmarking 4 sha3 chain cycles
+Benchmarking 4 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 62.4s, or reduce sample count to 10.
+Benchmarking 4 sha3 chain cycles: Collecting 11 samples in estimated 62.370 s (11 iterations)
+Benchmarking 4 sha3 chain cycles: Analyzing
+4 sha3 chain cycles     time:   [5.6644 s 5.7347 s 5.8080 s]
+
+Benchmarking 5 sha3 chain cycles
+Benchmarking 5 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 66.1s, or reduce sample count to 10.
+Benchmarking 5 sha3 chain cycles: Collecting 11 samples in estimated 66.100 s (11 iterations)
+Benchmarking 5 sha3 chain cycles: Analyzing
+5 sha3 chain cycles     time:   [5.8294 s 5.8796 s 5.9314 s]
+
+Benchmarking 6 sha3 chain cycles
+Benchmarking 6 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 92.3s, or reduce sample count to 10.
+Benchmarking 6 sha3 chain cycles: Collecting 11 samples in estimated 92.273 s (11 iterations)
+Benchmarking 6 sha3 chain cycles: Analyzing
+6 sha3 chain cycles     time:   [7.8351 s 7.9581 s 8.1014 s]
+
+Benchmarking 7 sha3 chain cycles
+Benchmarking 7 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 87.9s, or reduce sample count to 10.
+Benchmarking 7 sha3 chain cycles: Collecting 11 samples in estimated 87.926 s (11 iterations)
+Benchmarking 7 sha3 chain cycles: Analyzing
+7 sha3 chain cycles     time:   [7.8150 s 7.9103 s 8.0196 s]
+
+Benchmarking 8 sha3 chain cycles
+Benchmarking 8 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 92.0s, or reduce sample count to 10.
+Benchmarking 8 sha3 chain cycles: Collecting 11 samples in estimated 91.961 s (11 iterations)
+Benchmarking 8 sha3 chain cycles: Analyzing
+8 sha3 chain cycles     time:   [8.2282 s 8.3308 s 8.4145 s]
+
+Benchmarking 9 sha3 chain cycles
+Benchmarking 9 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 94.4s, or reduce sample count to 10.
+Benchmarking 9 sha3 chain cycles: Collecting 11 samples in estimated 94.419 s (11 iterations)
+Benchmarking 9 sha3 chain cycles: Analyzing
+9 sha3 chain cycles     time:   [8.3402 s 8.4487 s 8.5455 s]
+
+Benchmarking 10 sha3 chain cycles
+Benchmarking 10 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 95.7s, or reduce sample count to 10.
+Benchmarking 10 sha3 chain cycles: Collecting 11 samples in estimated 95.722 s (11 iterations)
+Benchmarking 10 sha3 chain cycles: Analyzing
+10 sha3 chain cycles    time:   [8.6345 s 8.7118 s 8.7960 s]
+
+Benchmarking 11 sha3 chain cycles
+Benchmarking 11 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 93.8s, or reduce sample count to 10.
+Benchmarking 11 sha3 chain cycles: Collecting 11 samples in estimated 93.839 s (11 iterations)
+Benchmarking 11 sha3 chain cycles: Analyzing
+11 sha3 chain cycles    time:   [8.7069 s 8.8238 s 8.9371 s]
+
+Benchmarking 12 sha3 chain cycles
+Benchmarking 12 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 137.3s, or reduce sample count to 10.
+Benchmarking 12 sha3 chain cycles: Collecting 11 samples in estimated 137.33 s (11 iterations)
+Benchmarking 12 sha3 chain cycles: Analyzing
+12 sha3 chain cycles    time:   [12.024 s 12.125 s 12.214 s]
+
+Benchmarking 13 sha3 chain cycles
+Benchmarking 13 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 132.2s, or reduce sample count to 10.
+Benchmarking 13 sha3 chain cycles: Collecting 11 samples in estimated 132.20 s (11 iterations)
+Benchmarking 13 sha3 chain cycles: Analyzing
+13 sha3 chain cycles    time:   [11.695 s 11.796 s 11.897 s]
+
+Benchmarking 14 sha3 chain cycles
+Benchmarking 14 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 134.4s, or reduce sample count to 10.
+Benchmarking 14 sha3 chain cycles: Collecting 11 samples in estimated 134.38 s (11 iterations)
+Benchmarking 14 sha3 chain cycles: Analyzing
+14 sha3 chain cycles    time:   [12.030 s 12.112 s 12.194 s]
+
+Benchmarking 15 sha3 chain cycles
+Benchmarking 15 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 134.9s, or reduce sample count to 10.
+Benchmarking 15 sha3 chain cycles: Collecting 11 samples in estimated 134.90 s (11 iterations)
+Benchmarking 15 sha3 chain cycles: Analyzing
+15 sha3 chain cycles    time:   [12.177 s 12.236 s 12.292 s]
+
+Benchmarking 16 sha3 chain cycles
+Benchmarking 16 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 139.3s, or reduce sample count to 10.
+Benchmarking 16 sha3 chain cycles: Collecting 11 samples in estimated 139.34 s (11 iterations)
+Benchmarking 16 sha3 chain cycles: Analyzing
+16 sha3 chain cycles    time:   [12.272 s 12.369 s 12.483 s]
+
+Benchmarking 17 sha3 chain cycles
+Benchmarking 17 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 138.8s, or reduce sample count to 10.
+Benchmarking 17 sha3 chain cycles: Collecting 11 samples in estimated 138.78 s (11 iterations)
+Benchmarking 17 sha3 chain cycles: Analyzing
+17 sha3 chain cycles    time:   [12.422 s 12.493 s 12.559 s]
+
+Benchmarking 18 sha3 chain cycles
+Benchmarking 18 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 140.0s, or reduce sample count to 10.
+Benchmarking 18 sha3 chain cycles: Collecting 11 samples in estimated 139.97 s (11 iterations)
+Benchmarking 18 sha3 chain cycles: Analyzing
+18 sha3 chain cycles    time:   [12.567 s 12.686 s 12.811 s]
+
+Benchmarking 19 sha3 chain cycles
+Benchmarking 19 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 142.7s, or reduce sample count to 10.
+Benchmarking 19 sha3 chain cycles: Collecting 11 samples in estimated 142.68 s (11 iterations)
+Benchmarking 19 sha3 chain cycles: Analyzing
+19 sha3 chain cycles    time:   [12.771 s 12.873 s 12.959 s]
+
+Benchmarking 20 sha3 chain cycles
+Benchmarking 20 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 141.6s, or reduce sample count to 10.
+Benchmarking 20 sha3 chain cycles: Collecting 11 samples in estimated 141.56 s (11 iterations)
+Benchmarking 20 sha3 chain cycles: Analyzing
+20 sha3 chain cycles    time:   [12.894 s 12.986 s 13.077 s]
+
+Benchmarking 21 sha3 chain cycles
+Benchmarking 21 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 147.1s, or reduce sample count to 10.
+Benchmarking 21 sha3 chain cycles: Collecting 11 samples in estimated 147.09 s (11 iterations)
+Benchmarking 21 sha3 chain cycles: Analyzing
+21 sha3 chain cycles    time:   [12.964 s 13.089 s 13.204 s]
+
+Benchmarking 22 sha3 chain cycles
+Benchmarking 22 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 146.0s, or reduce sample count to 10.
+Benchmarking 22 sha3 chain cycles: Collecting 11 samples in estimated 146.00 s (11 iterations)
+Benchmarking 22 sha3 chain cycles: Analyzing
+22 sha3 chain cycles    time:   [13.077 s 13.183 s 13.287 s]
+
+Benchmarking 23 sha3 chain cycles
+Benchmarking 23 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 146.4s, or reduce sample count to 10.
+Benchmarking 23 sha3 chain cycles: Collecting 11 samples in estimated 146.41 s (11 iterations)
+Benchmarking 23 sha3 chain cycles: Analyzing
+23 sha3 chain cycles    time:   [13.165 s 13.261 s 13.345 s]
+
+Benchmarking 24 sha3 chain cycles
+Benchmarking 24 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 236.2s, or reduce sample count to 10.
+Benchmarking 24 sha3 chain cycles: Collecting 11 samples in estimated 236.22 s (11 iterations)
+Benchmarking 24 sha3 chain cycles: Analyzing
+24 sha3 chain cycles    time:   [20.683 s 20.811 s 20.934 s]
+
+Benchmarking 25 sha3 chain cycles
+Benchmarking 25 sha3 chain cycles: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 224.5s, or reduce sample count to 10.
+Benchmarking 25 sha3 chain cycles: Collecting 11 samples in estimated 224.46 s (11 iterations)
+Benchmarking 25 sha3 chain cycles: Analyzing
+25 sha3 chain cycles    time:   [20.628 s 20.796 s 20.957 s]

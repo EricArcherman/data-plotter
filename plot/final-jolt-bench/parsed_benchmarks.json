@@ -12,6 +12,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "1th collatz number",
+    "input_value": 1,
+    "input_metric": "n",
+    "time_lo_s": 3.4486,
+    "time_mid_s": 3.4701,
+    "time_hi_s": 3.4982,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "1th collatz number",
@@ -58,6 +70,18 @@
     "time_hi_s": 3.4484,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "2th collatz number",
+    "input_value": 2,
+    "input_metric": "n",
+    "time_lo_s": 3.4677,
+    "time_mid_s": 3.4859,
+    "time_hi_s": 3.5068,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -108,6 +132,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "3th collatz number",
+    "input_value": 3,
+    "input_metric": "n",
+    "time_lo_s": 3.4719,
+    "time_mid_s": 3.4948,
+    "time_hi_s": 3.5238,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "3th collatz number",
@@ -154,6 +190,18 @@
     "time_hi_s": 3.4205,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "4th collatz number",
+    "input_value": 4,
+    "input_metric": "n",
+    "time_lo_s": 3.4634,
+    "time_mid_s": 3.4744,
+    "time_hi_s": 3.4878,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -204,6 +252,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "5th collatz number",
+    "input_value": 5,
+    "input_metric": "n",
+    "time_lo_s": 3.4671,
+    "time_mid_s": 3.487,
+    "time_hi_s": 3.5157,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "5th collatz number",
@@ -250,6 +310,18 @@
     "time_hi_s": 3.4667,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "6th collatz number",
+    "input_value": 6,
+    "input_metric": "n",
+    "time_lo_s": 3.4997,
+    "time_mid_s": 3.5302,
+    "time_hi_s": 3.5694,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -300,6 +372,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "7th collatz number",
+    "input_value": 7,
+    "input_metric": "n",
+    "time_lo_s": 3.5135,
+    "time_mid_s": 3.5314,
+    "time_hi_s": 3.5527,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "7th collatz number",
@@ -346,6 +430,18 @@
     "time_hi_s": 3.53,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "8th collatz number",
+    "input_value": 8,
+    "input_metric": "n",
+    "time_lo_s": 3.4798,
+    "time_mid_s": 3.4939,
+    "time_hi_s": 3.51,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -396,6 +492,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "9th collatz number",
+    "input_value": 9,
+    "input_metric": "n",
+    "time_lo_s": 3.5274,
+    "time_mid_s": 3.5511,
+    "time_hi_s": 3.578,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "9th collatz number",
@@ -442,6 +550,18 @@
     "time_hi_s": 3.5221,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "10th collatz number",
+    "input_value": 10,
+    "input_metric": "n",
+    "time_lo_s": 3.4844,
+    "time_mid_s": 3.5068,
+    "time_hi_s": 3.533,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -492,6 +612,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "11th collatz number",
+    "input_value": 11,
+    "input_metric": "n",
+    "time_lo_s": 3.5106,
+    "time_mid_s": 3.5403,
+    "time_hi_s": 3.5754,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "11th collatz number",
@@ -538,6 +670,18 @@
     "time_hi_s": 3.5584,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "12th collatz number",
+    "input_value": 12,
+    "input_metric": "n",
+    "time_lo_s": 3.5329,
+    "time_mid_s": 3.5613,
+    "time_hi_s": 3.5924,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -588,6 +732,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "13th collatz number",
+    "input_value": 13,
+    "input_metric": "n",
+    "time_lo_s": 3.502,
+    "time_mid_s": 3.5144,
+    "time_hi_s": 3.5291,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "13th collatz number",
@@ -634,6 +790,18 @@
     "time_hi_s": 3.5068,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "14th collatz number",
+    "input_value": 14,
+    "input_metric": "n",
+    "time_lo_s": 3.5045,
+    "time_mid_s": 3.5225,
+    "time_hi_s": 3.5428,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -684,6 +852,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "15th collatz number",
+    "input_value": 15,
+    "input_metric": "n",
+    "time_lo_s": 3.5072,
+    "time_mid_s": 3.5301,
+    "time_hi_s": 3.5589,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "15th collatz number",
@@ -730,6 +910,18 @@
     "time_hi_s": 3.5141,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "16th collatz number",
+    "input_value": 16,
+    "input_metric": "n",
+    "time_lo_s": 3.4819,
+    "time_mid_s": 3.5004,
+    "time_hi_s": 3.5228,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -780,6 +972,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "17th collatz number",
+    "input_value": 17,
+    "input_metric": "n",
+    "time_lo_s": 3.4964,
+    "time_mid_s": 3.5189,
+    "time_hi_s": 3.5479,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "17th collatz number",
@@ -826,6 +1030,18 @@
     "time_hi_s": 3.4612,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "18th collatz number",
+    "input_value": 18,
+    "input_metric": "n",
+    "time_lo_s": 3.5509,
+    "time_mid_s": 3.5799,
+    "time_hi_s": 3.6142,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -876,6 +1092,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "19th collatz number",
+    "input_value": 19,
+    "input_metric": "n",
+    "time_lo_s": 3.5479,
+    "time_mid_s": 3.5723,
+    "time_hi_s": 3.6038,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "19th collatz number",
@@ -922,6 +1150,18 @@
     "time_hi_s": 3.4913,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "20th collatz number",
+    "input_value": 20,
+    "input_metric": "n",
+    "time_lo_s": 3.4895,
+    "time_mid_s": 3.523,
+    "time_hi_s": 3.5608,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -972,6 +1212,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "21th collatz number",
+    "input_value": 21,
+    "input_metric": "n",
+    "time_lo_s": 3.4788,
+    "time_mid_s": 3.5159,
+    "time_hi_s": 3.563,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "21th collatz number",
@@ -1018,6 +1270,18 @@
     "time_hi_s": 3.4963,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "22th collatz number",
+    "input_value": 22,
+    "input_metric": "n",
+    "time_lo_s": 3.5019,
+    "time_mid_s": 3.5165,
+    "time_hi_s": 3.5366,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -1068,6 +1332,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "23th collatz number",
+    "input_value": 23,
+    "input_metric": "n",
+    "time_lo_s": 3.5093,
+    "time_mid_s": 3.5296,
+    "time_hi_s": 3.5573,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "23th collatz number",
@@ -1114,6 +1390,18 @@
     "time_hi_s": 3.5036,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "24th collatz number",
+    "input_value": 24,
+    "input_metric": "n",
+    "time_lo_s": 3.5104,
+    "time_mid_s": 3.5405,
+    "time_hi_s": 3.5767,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
   },
   {
     "variant": "no-reg",
@@ -1164,6 +1452,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/collatz.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "collatz",
+    "input_label": "25th collatz number",
+    "input_value": 25,
+    "input_metric": "n",
+    "time_lo_s": 3.5565,
+    "time_mid_s": 3.5833,
+    "time_hi_s": 3.6159,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/collatz.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "collatz",
     "input_label": "25th collatz number",
@@ -1210,6 +1510,18 @@
     "time_hi_s": 3.7941,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "100th fibonacci number",
+    "input_value": 100,
+    "input_metric": "n",
+    "time_lo_s": 3.5484,
+    "time_mid_s": 3.5566,
+    "time_hi_s": 3.5667,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -1260,6 +1572,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "200th fibonacci number",
+    "input_value": 200,
+    "input_metric": "n",
+    "time_lo_s": 3.596,
+    "time_mid_s": 3.6268,
+    "time_hi_s": 3.6612,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "200th fibonacci number",
@@ -1306,6 +1630,18 @@
     "time_hi_s": 3.8186,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "400th fibonacci number",
+    "input_value": 400,
+    "input_metric": "n",
+    "time_lo_s": 3.6765,
+    "time_mid_s": 3.692,
+    "time_hi_s": 3.7087,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -1356,6 +1692,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "700th fibonacci number",
+    "input_value": 700,
+    "input_metric": "n",
+    "time_lo_s": 3.8445,
+    "time_mid_s": 3.8659,
+    "time_hi_s": 3.8943,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "700th fibonacci number",
@@ -1402,6 +1750,18 @@
     "time_hi_s": 4.0488,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "1000th fibonacci number",
+    "input_value": 1000,
+    "input_metric": "n",
+    "time_lo_s": 3.8637,
+    "time_mid_s": 3.8852,
+    "time_hi_s": 3.9135,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -1452,6 +1812,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "2000th fibonacci number",
+    "input_value": 2000,
+    "input_metric": "n",
+    "time_lo_s": 4.2451,
+    "time_mid_s": 4.28,
+    "time_hi_s": 4.3191,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "2000th fibonacci number",
@@ -1498,6 +1870,18 @@
     "time_hi_s": 5.0258,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "4000th fibonacci number",
+    "input_value": 4000,
+    "input_metric": "n",
+    "time_lo_s": 4.9112,
+    "time_mid_s": 4.9564,
+    "time_hi_s": 5.0077,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -1548,6 +1932,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "6000th fibonacci number",
+    "input_value": 6000,
+    "input_metric": "n",
+    "time_lo_s": 6.1833,
+    "time_mid_s": 6.1999,
+    "time_hi_s": 6.2169,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "6000th fibonacci number",
@@ -1594,6 +1990,18 @@
     "time_hi_s": 6.3329,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "8000th fibonacci number",
+    "input_value": 8000,
+    "input_metric": "n",
+    "time_lo_s": 6.2922,
+    "time_mid_s": 6.3117,
+    "time_hi_s": 6.332,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -1644,6 +2052,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "10000th fibonacci number",
+    "input_value": 10000,
+    "input_metric": "n",
+    "time_lo_s": 6.5067,
+    "time_mid_s": 6.5476,
+    "time_hi_s": 6.5914,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "10000th fibonacci number",
@@ -1690,6 +2110,18 @@
     "time_hi_s": 8.728,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "12000th fibonacci number",
+    "input_value": 12000,
+    "input_metric": "n",
+    "time_lo_s": 8.8147,
+    "time_mid_s": 8.8636,
+    "time_hi_s": 8.9117,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -1740,6 +2172,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "14000th fibonacci number",
+    "input_value": 14000,
+    "input_metric": "n",
+    "time_lo_s": 8.9103,
+    "time_mid_s": 8.9513,
+    "time_hi_s": 8.9935,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "14000th fibonacci number",
@@ -1786,6 +2230,18 @@
     "time_hi_s": 8.8182,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "16000th fibonacci number",
+    "input_value": 16000,
+    "input_metric": "n",
+    "time_lo_s": 9.0577,
+    "time_mid_s": 9.0987,
+    "time_hi_s": 9.1436,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -1836,6 +2292,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "18000th fibonacci number",
+    "input_value": 18000,
+    "input_metric": "n",
+    "time_lo_s": 9.2126,
+    "time_mid_s": 9.2304,
+    "time_hi_s": 9.2488,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "18000th fibonacci number",
@@ -1882,6 +2350,18 @@
     "time_hi_s": 9.1887,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "20000th fibonacci number",
+    "input_value": 20000,
+    "input_metric": "n",
+    "time_lo_s": 9.1907,
+    "time_mid_s": 9.3226,
+    "time_hi_s": 9.4308,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -1932,6 +2412,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "22000th fibonacci number",
+    "input_value": 22000,
+    "input_metric": "n",
+    "time_lo_s": 14.22,
+    "time_mid_s": 14.293,
+    "time_hi_s": 14.365,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "22000th fibonacci number",
@@ -1978,6 +2470,18 @@
     "time_hi_s": 14.048,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "24000th fibonacci number",
+    "input_value": 24000,
+    "input_metric": "n",
+    "time_lo_s": 14.317,
+    "time_mid_s": 14.343,
+    "time_hi_s": 14.368,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -2028,6 +2532,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "26000th fibonacci number",
+    "input_value": 26000,
+    "input_metric": "n",
+    "time_lo_s": 14.398,
+    "time_mid_s": 14.453,
+    "time_hi_s": 14.502,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "26000th fibonacci number",
@@ -2074,6 +2590,18 @@
     "time_hi_s": 13.911,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "28000th fibonacci number",
+    "input_value": 28000,
+    "input_metric": "n",
+    "time_lo_s": 14.613,
+    "time_mid_s": 14.668,
+    "time_hi_s": 14.711,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -2124,6 +2652,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "30000th fibonacci number",
+    "input_value": 30000,
+    "input_metric": "n",
+    "time_lo_s": 14.849,
+    "time_mid_s": 14.904,
+    "time_hi_s": 14.956,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "30000th fibonacci number",
@@ -2170,6 +2710,18 @@
     "time_hi_s": 14.143,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "32000th fibonacci number",
+    "input_value": 32000,
+    "input_metric": "n",
+    "time_lo_s": 15.005,
+    "time_mid_s": 15.062,
+    "time_hi_s": 15.115,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -2220,6 +2772,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "34000th fibonacci number",
+    "input_value": 34000,
+    "input_metric": "n",
+    "time_lo_s": 15.152,
+    "time_mid_s": 15.182,
+    "time_hi_s": 15.208,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "34000th fibonacci number",
@@ -2266,6 +2830,18 @@
     "time_hi_s": 14.089,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "36000th fibonacci number",
+    "input_value": 36000,
+    "input_metric": "n",
+    "time_lo_s": 15.006,
+    "time_mid_s": 15.262,
+    "time_hi_s": 15.463,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -2316,6 +2892,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "38000th fibonacci number",
+    "input_value": 38000,
+    "input_metric": "n",
+    "time_lo_s": 15.325,
+    "time_mid_s": 15.489,
+    "time_hi_s": 15.59,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "fibonacci",
     "input_label": "38000th fibonacci number",
@@ -2362,6 +2950,18 @@
     "time_hi_s": 14.756,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/fibonacci.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "fibonacci",
+    "input_label": "40000th fibonacci number",
+    "input_value": 40000,
+    "input_metric": "n",
+    "time_lo_s": 15.726,
+    "time_mid_s": 15.776,
+    "time_hi_s": 15.826,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/fibonacci.txt"
   },
   {
     "variant": "no-reg",
@@ -2412,6 +3012,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "1 sha2 chain cycles",
+    "input_value": 1,
+    "input_metric": "cycles",
+    "time_lo_s": 4.2944,
+    "time_mid_s": 4.317,
+    "time_hi_s": 4.3418,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "1 sha2 chain cycles",
@@ -2458,6 +3070,18 @@
     "time_hi_s": 4.477,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "2 sha2 chain cycles",
+    "input_value": 2,
+    "input_metric": "cycles",
+    "time_lo_s": 4.5317,
+    "time_mid_s": 4.563,
+    "time_hi_s": 4.6001,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -2508,6 +3132,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "3 sha2 chain cycles",
+    "input_value": 3,
+    "input_metric": "cycles",
+    "time_lo_s": 5.2122,
+    "time_mid_s": 5.2586,
+    "time_hi_s": 5.3106,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "3 sha2 chain cycles",
@@ -2554,6 +3190,18 @@
     "time_hi_s": 5.3187,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "4 sha2 chain cycles",
+    "input_value": 4,
+    "input_metric": "cycles",
+    "time_lo_s": 5.4743,
+    "time_mid_s": 5.5066,
+    "time_hi_s": 5.5414,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -2604,6 +3252,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "5 sha2 chain cycles",
+    "input_value": 5,
+    "input_metric": "cycles",
+    "time_lo_s": 6.717,
+    "time_mid_s": 6.7289,
+    "time_hi_s": 6.7412,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "5 sha2 chain cycles",
@@ -2650,6 +3310,18 @@
     "time_hi_s": 6.6347,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "6 sha2 chain cycles",
+    "input_value": 6,
+    "input_metric": "cycles",
+    "time_lo_s": 6.9789,
+    "time_mid_s": 7.0133,
+    "time_hi_s": 7.0499,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -2700,6 +3372,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "7 sha2 chain cycles",
+    "input_value": 7,
+    "input_metric": "cycles",
+    "time_lo_s": 7.2592,
+    "time_mid_s": 7.2954,
+    "time_hi_s": 7.3389,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "7 sha2 chain cycles",
@@ -2746,6 +3430,18 @@
     "time_hi_s": 7.1652,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "8 sha2 chain cycles",
+    "input_value": 8,
+    "input_metric": "cycles",
+    "time_lo_s": 7.4618,
+    "time_mid_s": 7.4768,
+    "time_hi_s": 7.4939,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -2796,6 +3492,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "9 sha2 chain cycles",
+    "input_value": 9,
+    "input_metric": "cycles",
+    "time_lo_s": 9.7724,
+    "time_mid_s": 9.848,
+    "time_hi_s": 9.9178,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "9 sha2 chain cycles",
@@ -2842,6 +3550,18 @@
     "time_hi_s": 9.5452,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "10 sha2 chain cycles",
+    "input_value": 10,
+    "input_metric": "cycles",
+    "time_lo_s": 10.03,
+    "time_mid_s": 10.065,
+    "time_hi_s": 10.108,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -2892,6 +3612,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "11 sha2 chain cycles",
+    "input_value": 11,
+    "input_metric": "cycles",
+    "time_lo_s": 10.17,
+    "time_mid_s": 10.235,
+    "time_hi_s": 10.283,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "11 sha2 chain cycles",
@@ -2938,6 +3670,18 @@
     "time_hi_s": 10.069,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "12 sha2 chain cycles",
+    "input_value": 12,
+    "input_metric": "cycles",
+    "time_lo_s": 10.265,
+    "time_mid_s": 10.341,
+    "time_hi_s": 10.419,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -2988,6 +3732,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "13 sha2 chain cycles",
+    "input_value": 13,
+    "input_metric": "cycles",
+    "time_lo_s": 10.717,
+    "time_mid_s": 10.74,
+    "time_hi_s": 10.767,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "13 sha2 chain cycles",
@@ -3034,6 +3790,18 @@
     "time_hi_s": 10.369,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "14 sha2 chain cycles",
+    "input_value": 14,
+    "input_metric": "cycles",
+    "time_lo_s": 10.862,
+    "time_mid_s": 10.914,
+    "time_hi_s": 10.963,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -3084,6 +3852,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "15 sha2 chain cycles",
+    "input_value": 15,
+    "input_metric": "cycles",
+    "time_lo_s": 11.018,
+    "time_mid_s": 11.108,
+    "time_hi_s": 11.197,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "15 sha2 chain cycles",
@@ -3130,6 +3910,18 @@
     "time_hi_s": 10.827,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "16 sha2 chain cycles",
+    "input_value": 16,
+    "input_metric": "cycles",
+    "time_lo_s": 11.377,
+    "time_mid_s": 11.429,
+    "time_hi_s": 11.476,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -3180,6 +3972,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "17 sha2 chain cycles",
+    "input_value": 17,
+    "input_metric": "cycles",
+    "time_lo_s": 11.434,
+    "time_mid_s": 11.518,
+    "time_hi_s": 11.615,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "17 sha2 chain cycles",
@@ -3226,6 +4030,18 @@
     "time_hi_s": 16.03,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "18 sha2 chain cycles",
+    "input_value": 18,
+    "input_metric": "cycles",
+    "time_lo_s": 16.533,
+    "time_mid_s": 16.603,
+    "time_hi_s": 16.696,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -3276,6 +4092,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "19 sha2 chain cycles",
+    "input_value": 19,
+    "input_metric": "cycles",
+    "time_lo_s": 16.873,
+    "time_mid_s": 16.915,
+    "time_hi_s": 16.96,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "19 sha2 chain cycles",
@@ -3322,6 +4150,18 @@
     "time_hi_s": 16.783,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "20 sha2 chain cycles",
+    "input_value": 20,
+    "input_metric": "cycles",
+    "time_lo_s": 17.137,
+    "time_mid_s": 17.185,
+    "time_hi_s": 17.232,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -3372,6 +4212,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "21 sha2 chain cycles",
+    "input_value": 21,
+    "input_metric": "cycles",
+    "time_lo_s": 17.366,
+    "time_mid_s": 17.413,
+    "time_hi_s": 17.47,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "21 sha2 chain cycles",
@@ -3418,6 +4270,18 @@
     "time_hi_s": 17.17,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "22 sha2 chain cycles",
+    "input_value": 22,
+    "input_metric": "cycles",
+    "time_lo_s": 17.606,
+    "time_mid_s": 17.653,
+    "time_hi_s": 17.695,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",
@@ -3468,6 +4332,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "23 sha2 chain cycles",
+    "input_value": 23,
+    "input_metric": "cycles",
+    "time_lo_s": 17.671,
+    "time_mid_s": 17.864,
+    "time_hi_s": 17.979,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "23 sha2 chain cycles",
@@ -3516,6 +4392,18 @@
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
   },
   {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "24 sha2 chain cycles",
+    "input_value": 24,
+    "input_metric": "cycles",
+    "time_lo_s": 18.057,
+    "time_mid_s": 18.119,
+    "time_hi_s": 18.184,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
+  },
+  {
     "variant": "no-reg",
     "benchmark": "sha2_chain",
     "input_label": "24 sha2 chain cycles",
@@ -3562,6 +4450,18 @@
     "time_hi_s": 17.768,
     "units": "s",
     "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/32-reg/sha2_chain.txt"
+  },
+  {
+    "variant": "mem-batch",
+    "benchmark": "sha2_chain",
+    "input_label": "25 sha2 chain cycles",
+    "input_value": 25,
+    "input_metric": "cycles",
+    "time_lo_s": 17.764,
+    "time_mid_s": 18.051,
+    "time_hi_s": 18.327,
+    "units": "s",
+    "source_file": "/Users/ericarcherman/Files/projs/plotter/plot/final-jolt-bench/mem-batch/sha2_chain.txt"
   },
   {
     "variant": "no-reg",

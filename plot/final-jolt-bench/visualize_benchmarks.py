@@ -31,20 +31,22 @@ matplotlib.rcParams.update({
 
 
 BASELINE_VARIANT = "untouched"
-VARIANT_ORDER = ["untouched", "32-reg", "v-reg", "no-reg"]
+VARIANT_ORDER = ["untouched", "32-reg", "v-reg", "no-reg", "mem-batch"]
 VARIANT_COLORS = {
     "untouched": "#7A7A7A",
     "32-reg": "#1f77b4",
     "v-reg": "#ff7f0e",
     "no-reg": "#d62728",
+    "mem-batch": "#9467bd",
 }
 
+# Benchmarks to visualize (exclude variant names like "mem-batch")
 BENCHMARKS = ["collatz", "fibonacci", "sha2_chain", "sha3_chain"]
 BENCHMARK_TITLES = {
     "collatz": "Collatz",
     "fibonacci": "Fibonacci",
     "sha2_chain": "SHA2 Chain",
-    "sha3_chain": "SHA3 Chain",
+    "sha3_chain": "SHA3 Chain"
 }
 
 # Selected (focused) inputs for grouped bar charts and tables
@@ -68,19 +70,38 @@ class Record:
 
 def read_records(csv_path: Path) -> List[Record]:
     records: List[Record] = []
+    skipped_rows = 0
     with csv_path.open("r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            records.append(
-                Record(
-                    variant=row["variant"],
-                    benchmark=row["benchmark"],
-                    input_value=int(row["input_value"]),
-                    time_lo_s=float(row["time_lo_s"]),
-                    time_mid_s=float(row["time_mid_s"]),
-                    time_hi_s=float(row["time_hi_s"]),
+            try:
+                # Require minimal fields
+                variant = row.get("variant", "").strip()
+                benchmark = row.get("benchmark", "").strip()
+                if not variant or not benchmark:
+                    raise ValueError("missing variant/benchmark")
+
+                input_value = int(row["input_value"])  # may raise
+                time_lo_s = float(row["time_lo_s"])    # may raise
+                time_mid_s = float(row["time_mid_s"])  # may raise
+                time_hi_s = float(row["time_hi_s"])    # may raise
+
+                records.append(
+                    Record(
+                        variant=variant,
+                        benchmark=benchmark,
+                        input_value=input_value,
+                        time_lo_s=time_lo_s,
+                        time_mid_s=time_mid_s,
+                        time_hi_s=time_hi_s,
+                    )
                 )
-            )
+            except Exception:
+                skipped_rows += 1
+                continue
+
+    if skipped_rows:
+        print(f"Warning: skipped {skipped_rows} invalid row(s) from {csv_path.name}")
     return records
 
 
@@ -106,7 +127,7 @@ def plot_scaling_curves(data: Dict[str, Dict[str, Dict[int, Record]]], fig_dir: 
     for idx, bench in enumerate(BENCHMARKS):
         ax = axes[idx]
         ax.set_title(BENCHMARK_TITLES[bench])
-        ax.set_xlabel("Input")
+        ax.set_xlabel("Cycles" if bench.startswith("sha") else "Input")
         ax.set_ylabel("Time (s)")
 
         if bench not in data:
@@ -141,7 +162,7 @@ def plot_speedup_curves(data: Dict[str, Dict[str, Dict[int, Record]]], fig_dir: 
     for idx, bench in enumerate(BENCHMARKS):
         ax = axes[idx]
         ax.set_title(BENCHMARK_TITLES[bench])
-        ax.set_xlabel("Input")
+        ax.set_xlabel("Cycles" if bench.startswith("sha") else "Input")
         ax.set_ylabel(f"Speedup vs {BASELINE_VARIANT}")
 
         if bench not in data:
@@ -188,17 +209,22 @@ def plot_grouped_bars(data: Dict[str, Dict[str, Dict[int, Record]]], fig_dir: Pa
         if not available_inputs:
             continue
 
-        width = 0.22
+        # Consider only variants that actually have data for this benchmark
+        present_variants = [v for v in VARIANT_ORDER if data[bench].get(v, {})]
+        num_variants = max(1, len(present_variants))
+        width = 0.75 / num_variants
         x_positions = list(range(len(available_inputs)))
 
         fig, ax = plt.subplots(figsize=(10, 4.0))
         ax.set_title(f"{BENCHMARK_TITLES[bench]} — Selected Inputs")
-        ax.set_xlabel("Input")
+        ax.set_xlabel("Cycles" if bench.startswith("sha") else "Input")
         ax.set_ylabel("Time (s)")
 
-        for idx_v, variant in enumerate(VARIANT_ORDER):
+        for idx_v, variant in enumerate(present_variants):
             records_map = data[bench].get(variant, {})
-            xs = [x + (idx_v - 1) * width for x in x_positions]
+            # Center the group of bars around each x position
+            offset = (idx_v - (num_variants - 1) / 2.0) * width
+            xs = [x + offset for x in x_positions]
             ys = []
             yerr_low = []
             yerr_high = []

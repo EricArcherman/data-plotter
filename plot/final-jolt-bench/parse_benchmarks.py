@@ -160,7 +160,7 @@ def parse_benchmark_file(path: Path) -> List[BenchmarkRecord]:
 
 def discover_default_inputs(root: Path) -> List[Path]:
     candidates: List[Path] = []
-    variants = ["32-reg", "untouched", "v-reg", "no-reg"]
+    variants = ["32-reg", "untouched", "v-reg", "no-reg", "mem-batch"]
     benchmarks = ["collatz", "fibonacci", "sha2_chain", "sha3_chain"]
     for variant in variants:
         for bench in benchmarks:

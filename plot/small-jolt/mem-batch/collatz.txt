@@ -1,0 +1,799 @@
+Benchmarking 1th collatz number
+Benchmarking 1th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 89.8s, or reduce sample count to 10.
+Benchmarking 1th collatz number: Collecting 11 samples in estimated 89.794 s (11 iterations)
+Benchmarking 1th collatz number: Analyzing
+1th collatz number      time:   [3.0584 s 3.0816 s 3.1088 s]
+
+Benchmarking 2th collatz number
+Benchmarking 2th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.7s, or reduce sample count to 10.
+Benchmarking 2th collatz number: Collecting 11 samples in estimated 34.675 s (11 iterations)
+Benchmarking 2th collatz number: Analyzing
+2th collatz number      time:   [3.0642 s 3.0728 s 3.0842 s]
+
+Benchmarking 3th collatz number
+Benchmarking 3th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 33.8s, or reduce sample count to 10.
+Benchmarking 3th collatz number: Collecting 11 samples in estimated 33.835 s (11 iterations)
+Benchmarking 3th collatz number: Analyzing
+3th collatz number      time:   [3.0757 s 3.0970 s 3.1270 s]
+
+Benchmarking 4th collatz number
+Benchmarking 4th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 33.8s, or reduce sample count to 10.
+Benchmarking 4th collatz number: Collecting 11 samples in estimated 33.828 s (11 iterations)
+Benchmarking 4th collatz number: Analyzing
+4th collatz number      time:   [3.0684 s 3.0764 s 3.0849 s]
+
+Benchmarking 5th collatz number
+Benchmarking 5th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 5th collatz number: Collecting 11 samples in estimated 34.408 s (11 iterations)
+Benchmarking 5th collatz number: Analyzing
+5th collatz number      time:   [3.0720 s 3.0918 s 3.1174 s]
+
+Benchmarking 6th collatz number
+Benchmarking 6th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.3s, or reduce sample count to 10.
+Benchmarking 6th collatz number: Collecting 11 samples in estimated 34.302 s (11 iterations)
+Benchmarking 6th collatz number: Analyzing
+6th collatz number      time:   [3.0942 s 3.1043 s 3.1149 s]
+
+Benchmarking 7th collatz number
+Benchmarking 7th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.3s, or reduce sample count to 10.
+Benchmarking 7th collatz number: Collecting 11 samples in estimated 34.278 s (11 iterations)
+Benchmarking 7th collatz number: Analyzing
+7th collatz number      time:   [3.1063 s 3.1271 s 3.1526 s]
+
+Benchmarking 8th collatz number
+Benchmarking 8th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 33.9s, or reduce sample count to 10.
+Benchmarking 8th collatz number: Collecting 11 samples in estimated 33.897 s (11 iterations)
+Benchmarking 8th collatz number: Analyzing
+8th collatz number      time:   [3.0681 s 3.0760 s 3.0850 s]
+
+Benchmarking 9th collatz number
+Benchmarking 9th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 9th collatz number: Collecting 11 samples in estimated 34.356 s (11 iterations)
+Benchmarking 9th collatz number: Analyzing
+9th collatz number      time:   [3.1028 s 3.1104 s 3.1183 s]
+
+Benchmarking 10th collatz number
+Benchmarking 10th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 33.8s, or reduce sample count to 10.
+Benchmarking 10th collatz number: Collecting 11 samples in estimated 33.757 s (11 iterations)
+Benchmarking 10th collatz number: Analyzing
+10th collatz number     time:   [3.0817 s 3.1100 s 3.1427 s]
+
+Benchmarking 11th collatz number
+Benchmarking 11th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.2s, or reduce sample count to 10.
+Benchmarking 11th collatz number: Collecting 11 samples in estimated 34.213 s (11 iterations)
+Benchmarking 11th collatz number: Analyzing
+11th collatz number     time:   [3.0960 s 3.1130 s 3.1393 s]
+
+Benchmarking 12th collatz number
+Benchmarking 12th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.3s, or reduce sample count to 10.
+Benchmarking 12th collatz number: Collecting 11 samples in estimated 34.256 s (11 iterations)
+Benchmarking 12th collatz number: Analyzing
+12th collatz number     time:   [3.1037 s 3.1268 s 3.1556 s]
+
+Benchmarking 13th collatz number
+Benchmarking 13th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.2s, or reduce sample count to 10.
+Benchmarking 13th collatz number: Collecting 11 samples in estimated 34.158 s (11 iterations)
+Benchmarking 13th collatz number: Analyzing
+13th collatz number     time:   [3.0960 s 3.1171 s 3.1453 s]
+
+Benchmarking 14th collatz number
+Benchmarking 14th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.1s, or reduce sample count to 10.
+Benchmarking 14th collatz number: Collecting 11 samples in estimated 34.080 s (11 iterations)
+Benchmarking 14th collatz number: Analyzing
+14th collatz number     time:   [3.1078 s 3.1254 s 3.1445 s]
+
+Benchmarking 15th collatz number
+Benchmarking 15th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.5s, or reduce sample count to 10.
+Benchmarking 15th collatz number: Collecting 11 samples in estimated 34.469 s (11 iterations)
+Benchmarking 15th collatz number: Analyzing
+15th collatz number     time:   [3.1054 s 3.1192 s 3.1338 s]
+
+Benchmarking 16th collatz number
+Benchmarking 16th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 33.8s, or reduce sample count to 10.
+Benchmarking 16th collatz number: Collecting 11 samples in estimated 33.777 s (11 iterations)
+Benchmarking 16th collatz number: Analyzing
+16th collatz number     time:   [3.0847 s 3.1066 s 3.1314 s]
+
+Benchmarking 17th collatz number
+Benchmarking 17th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.2s, or reduce sample count to 10.
+Benchmarking 17th collatz number: Collecting 11 samples in estimated 34.221 s (11 iterations)
+Benchmarking 17th collatz number: Analyzing
+17th collatz number     time:   [3.0981 s 3.1087 s 3.1219 s]
+
+Benchmarking 18th collatz number
+Benchmarking 18th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.7s, or reduce sample count to 10.
+Benchmarking 18th collatz number: Collecting 11 samples in estimated 34.711 s (11 iterations)
+Benchmarking 18th collatz number: Analyzing
+18th collatz number     time:   [3.1622 s 3.1934 s 3.2252 s]
+
+Benchmarking 19th collatz number
+Benchmarking 19th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.7s, or reduce sample count to 10.
+Benchmarking 19th collatz number: Collecting 11 samples in estimated 34.746 s (11 iterations)
+Benchmarking 19th collatz number: Analyzing
+19th collatz number     time:   [3.1427 s 3.1497 s 3.1568 s]
+
+Benchmarking 20th collatz number
+Benchmarking 20th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.0s, or reduce sample count to 10.
+Benchmarking 20th collatz number: Collecting 11 samples in estimated 34.014 s (11 iterations)
+Benchmarking 20th collatz number: Analyzing
+20th collatz number     time:   [3.0812 s 3.1066 s 3.1435 s]
+
+Benchmarking 21th collatz number
+Benchmarking 21th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.0s, or reduce sample count to 10.
+Benchmarking 21th collatz number: Collecting 11 samples in estimated 34.037 s (11 iterations)
+Benchmarking 21th collatz number: Analyzing
+21th collatz number     time:   [3.0828 s 3.1031 s 3.1301 s]
+
+Benchmarking 22th collatz number
+Benchmarking 22th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.6s, or reduce sample count to 10.
+Benchmarking 22th collatz number: Collecting 11 samples in estimated 34.646 s (11 iterations)
+Benchmarking 22th collatz number: Analyzing
+22th collatz number     time:   [3.1266 s 3.1534 s 3.1849 s]
+
+Benchmarking 23th collatz number
+Benchmarking 23th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.1s, or reduce sample count to 10.
+Benchmarking 23th collatz number: Collecting 11 samples in estimated 35.084 s (11 iterations)
+Benchmarking 23th collatz number: Analyzing
+23th collatz number     time:   [3.1066 s 3.1233 s 3.1480 s]
+
+Benchmarking 24th collatz number
+Benchmarking 24th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 24th collatz number: Collecting 11 samples in estimated 34.383 s (11 iterations)
+Benchmarking 24th collatz number: Analyzing
+24th collatz number     time:   [3.1254 s 3.1597 s 3.1964 s]
+
+Benchmarking 25th collatz number
+Benchmarking 25th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.6s, or reduce sample count to 10.
+Benchmarking 25th collatz number: Collecting 11 samples in estimated 34.626 s (11 iterations)
+Benchmarking 25th collatz number: Analyzing
+25th collatz number     time:   [3.1440 s 3.1537 s 3.1651 s]
+
+Benchmarking 26th collatz number
+Benchmarking 26th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.8s, or reduce sample count to 10.
+Benchmarking 26th collatz number: Collecting 11 samples in estimated 34.750 s (11 iterations)
+Benchmarking 26th collatz number: Analyzing
+26th collatz number     time:   [3.1065 s 3.1179 s 3.1326 s]
+
+Benchmarking 27th collatz number
+Benchmarking 27th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.9s, or reduce sample count to 10.
+Benchmarking 27th collatz number: Collecting 11 samples in estimated 37.947 s (11 iterations)
+Benchmarking 27th collatz number: Analyzing
+27th collatz number     time:   [3.4064 s 3.4294 s 3.4585 s]
+
+Benchmarking 28th collatz number
+Benchmarking 28th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.2s, or reduce sample count to 10.
+Benchmarking 28th collatz number: Collecting 11 samples in estimated 35.232 s (11 iterations)
+Benchmarking 28th collatz number: Analyzing
+28th collatz number     time:   [3.1109 s 3.1322 s 3.1641 s]
+
+Benchmarking 29th collatz number
+Benchmarking 29th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.2s, or reduce sample count to 10.
+Benchmarking 29th collatz number: Collecting 11 samples in estimated 34.232 s (11 iterations)
+Benchmarking 29th collatz number: Analyzing
+29th collatz number     time:   [3.1078 s 3.1226 s 3.1461 s]
+
+Benchmarking 30th collatz number
+Benchmarking 30th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.2s, or reduce sample count to 10.
+Benchmarking 30th collatz number: Collecting 11 samples in estimated 34.189 s (11 iterations)
+Benchmarking 30th collatz number: Analyzing
+30th collatz number     time:   [3.1088 s 3.1255 s 3.1456 s]
+
+Benchmarking 31th collatz number
+Benchmarking 31th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.6s, or reduce sample count to 10.
+Benchmarking 31th collatz number: Collecting 11 samples in estimated 37.633 s (11 iterations)
+Benchmarking 31th collatz number: Analyzing
+31th collatz number     time:   [3.4111 s 3.4366 s 3.4659 s]
+
+Benchmarking 32th collatz number
+Benchmarking 32th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 33.8s, or reduce sample count to 10.
+Benchmarking 32th collatz number: Collecting 11 samples in estimated 33.803 s (11 iterations)
+Benchmarking 32th collatz number: Analyzing
+32th collatz number     time:   [3.0814 s 3.0924 s 3.1062 s]
+
+Benchmarking 33th collatz number
+Benchmarking 33th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.8s, or reduce sample count to 10.
+Benchmarking 33th collatz number: Collecting 11 samples in estimated 34.756 s (11 iterations)
+Benchmarking 33th collatz number: Analyzing
+33th collatz number     time:   [3.1408 s 3.1557 s 3.1726 s]
+
+Benchmarking 34th collatz number
+Benchmarking 34th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.3s, or reduce sample count to 10.
+Benchmarking 34th collatz number: Collecting 11 samples in estimated 34.320 s (11 iterations)
+Benchmarking 34th collatz number: Analyzing
+34th collatz number     time:   [3.1060 s 3.1131 s 3.1209 s]
+
+Benchmarking 35th collatz number
+Benchmarking 35th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.9s, or reduce sample count to 10.
+Benchmarking 35th collatz number: Collecting 11 samples in estimated 34.905 s (11 iterations)
+Benchmarking 35th collatz number: Analyzing
+35th collatz number     time:   [3.1061 s 3.1234 s 3.1476 s]
+
+Benchmarking 36th collatz number
+Benchmarking 36th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.9s, or reduce sample count to 10.
+Benchmarking 36th collatz number: Collecting 11 samples in estimated 34.885 s (11 iterations)
+Benchmarking 36th collatz number: Analyzing
+36th collatz number     time:   [3.1445 s 3.1550 s 3.1664 s]
+
+Benchmarking 37th collatz number
+Benchmarking 37th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.5s, or reduce sample count to 10.
+Benchmarking 37th collatz number: Collecting 11 samples in estimated 34.515 s (11 iterations)
+Benchmarking 37th collatz number: Analyzing
+37th collatz number     time:   [3.1512 s 3.1782 s 3.2103 s]
+
+Benchmarking 38th collatz number
+Benchmarking 38th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.9s, or reduce sample count to 10.
+Benchmarking 38th collatz number: Collecting 11 samples in estimated 34.855 s (11 iterations)
+Benchmarking 38th collatz number: Analyzing
+38th collatz number     time:   [3.1489 s 3.1717 s 3.1976 s]
+
+Benchmarking 39th collatz number
+Benchmarking 39th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.4s, or reduce sample count to 10.
+Benchmarking 39th collatz number: Collecting 11 samples in estimated 35.389 s (11 iterations)
+Benchmarking 39th collatz number: Analyzing
+39th collatz number     time:   [3.1514 s 3.1743 s 3.2047 s]
+
+Benchmarking 40th collatz number
+Benchmarking 40th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.9s, or reduce sample count to 10.
+Benchmarking 40th collatz number: Collecting 11 samples in estimated 34.942 s (11 iterations)
+Benchmarking 40th collatz number: Analyzing
+40th collatz number     time:   [3.1247 s 3.1482 s 3.1749 s]
+
+Benchmarking 41th collatz number
+Benchmarking 41th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.4s, or reduce sample count to 10.
+Benchmarking 41th collatz number: Collecting 11 samples in estimated 37.447 s (11 iterations)
+Benchmarking 41th collatz number: Analyzing
+41th collatz number     time:   [3.4120 s 3.4320 s 3.4579 s]
+
+Benchmarking 42th collatz number
+Benchmarking 42th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.5s, or reduce sample count to 10.
+Benchmarking 42th collatz number: Collecting 11 samples in estimated 34.480 s (11 iterations)
+Benchmarking 42th collatz number: Analyzing
+42th collatz number     time:   [3.1231 s 3.1389 s 3.1557 s]
+
+Benchmarking 43th collatz number
+Benchmarking 43th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.1s, or reduce sample count to 10.
+Benchmarking 43th collatz number: Collecting 11 samples in estimated 35.114 s (11 iterations)
+Benchmarking 43th collatz number: Analyzing
+43th collatz number     time:   [3.1635 s 3.1925 s 3.2259 s]
+
+Benchmarking 44th collatz number
+Benchmarking 44th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 44th collatz number: Collecting 11 samples in estimated 34.407 s (11 iterations)
+Benchmarking 44th collatz number: Analyzing
+44th collatz number     time:   [3.1165 s 3.1235 s 3.1309 s]
+
+Benchmarking 45th collatz number
+Benchmarking 45th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.5s, or reduce sample count to 10.
+Benchmarking 45th collatz number: Collecting 11 samples in estimated 34.486 s (11 iterations)
+Benchmarking 45th collatz number: Analyzing
+45th collatz number     time:   [3.1149 s 3.1436 s 3.1781 s]
+
+Benchmarking 46th collatz number
+Benchmarking 46th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.3s, or reduce sample count to 10.
+Benchmarking 46th collatz number: Collecting 11 samples in estimated 34.254 s (11 iterations)
+Benchmarking 46th collatz number: Analyzing
+46th collatz number     time:   [3.1141 s 3.1300 s 3.1542 s]
+
+Benchmarking 47th collatz number
+Benchmarking 47th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.6s, or reduce sample count to 10.
+Benchmarking 47th collatz number: Collecting 11 samples in estimated 37.577 s (11 iterations)
+Benchmarking 47th collatz number: Analyzing
+47th collatz number     time:   [3.4058 s 3.4327 s 3.4639 s]
+
+Benchmarking 48th collatz number
+Benchmarking 48th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 48th collatz number: Collecting 11 samples in estimated 34.391 s (11 iterations)
+Benchmarking 48th collatz number: Analyzing
+48th collatz number     time:   [3.1028 s 3.1150 s 3.1307 s]
+
+Benchmarking 49th collatz number
+Benchmarking 49th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.0s, or reduce sample count to 10.
+Benchmarking 49th collatz number: Collecting 11 samples in estimated 34.966 s (11 iterations)
+Benchmarking 49th collatz number: Analyzing
+49th collatz number     time:   [3.1573 s 3.1795 s 3.2077 s]
+
+Benchmarking 50th collatz number
+Benchmarking 50th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.8s, or reduce sample count to 10.
+Benchmarking 50th collatz number: Collecting 11 samples in estimated 34.802 s (11 iterations)
+Benchmarking 50th collatz number: Analyzing
+50th collatz number     time:   [3.1483 s 3.1644 s 3.1808 s]
+
+Benchmarking 52th collatz number
+Benchmarking 52th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.1s, or reduce sample count to 10.
+Benchmarking 52th collatz number: Collecting 11 samples in estimated 34.124 s (11 iterations)
+Benchmarking 52th collatz number: Analyzing
+52th collatz number     time:   [3.1124 s 3.1364 s 3.1670 s]
+
+Benchmarking 54th collatz number
+Benchmarking 54th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.9s, or reduce sample count to 10.
+Benchmarking 54th collatz number: Collecting 11 samples in estimated 37.881 s (11 iterations)
+Benchmarking 54th collatz number: Analyzing
+54th collatz number     time:   [3.4235 s 3.4471 s 3.4746 s]
+
+Benchmarking 56th collatz number
+Benchmarking 56th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 56th collatz number: Collecting 11 samples in estimated 34.375 s (11 iterations)
+Benchmarking 56th collatz number: Analyzing
+56th collatz number     time:   [3.1149 s 3.1445 s 3.1816 s]
+
+Benchmarking 58th collatz number
+Benchmarking 58th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 58th collatz number: Collecting 11 samples in estimated 34.371 s (11 iterations)
+Benchmarking 58th collatz number: Analyzing
+58th collatz number     time:   [3.1144 s 3.1284 s 3.1444 s]
+
+Benchmarking 60th collatz number
+Benchmarking 60th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 60th collatz number: Collecting 11 samples in estimated 34.402 s (11 iterations)
+Benchmarking 60th collatz number: Analyzing
+60th collatz number     time:   [3.1117 s 3.1381 s 3.1693 s]
+
+Benchmarking 62th collatz number
+Benchmarking 62th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.9s, or reduce sample count to 10.
+Benchmarking 62th collatz number: Collecting 11 samples in estimated 37.855 s (11 iterations)
+Benchmarking 62th collatz number: Analyzing
+62th collatz number     time:   [3.4103 s 3.4328 s 3.4591 s]
+
+Benchmarking 64th collatz number
+Benchmarking 64th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.0s, or reduce sample count to 10.
+Benchmarking 64th collatz number: Collecting 11 samples in estimated 33.988 s (11 iterations)
+Benchmarking 64th collatz number: Analyzing
+64th collatz number     time:   [3.0862 s 3.1061 s 3.1317 s]
+
+Benchmarking 66th collatz number
+Benchmarking 66th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.7s, or reduce sample count to 10.
+Benchmarking 66th collatz number: Collecting 11 samples in estimated 34.725 s (11 iterations)
+Benchmarking 66th collatz number: Analyzing
+66th collatz number     time:   [3.1746 s 3.2088 s 3.2450 s]
+
+Benchmarking 68th collatz number
+Benchmarking 68th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.3s, or reduce sample count to 10.
+Benchmarking 68th collatz number: Collecting 11 samples in estimated 34.344 s (11 iterations)
+Benchmarking 68th collatz number: Analyzing
+68th collatz number     time:   [3.1120 s 3.1297 s 3.1489 s]
+
+Benchmarking 70th collatz number
+Benchmarking 70th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.6s, or reduce sample count to 10.
+Benchmarking 70th collatz number: Collecting 11 samples in estimated 34.563 s (11 iterations)
+Benchmarking 70th collatz number: Analyzing
+70th collatz number     time:   [3.1153 s 3.1310 s 3.1482 s]
+
+Benchmarking 72th collatz number
+Benchmarking 72th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.8s, or reduce sample count to 10.
+Benchmarking 72th collatz number: Collecting 11 samples in estimated 34.806 s (11 iterations)
+Benchmarking 72th collatz number: Analyzing
+72th collatz number     time:   [3.1440 s 3.1526 s 3.1644 s]
+
+Benchmarking 74th collatz number
+Benchmarking 74th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.0s, or reduce sample count to 10.
+Benchmarking 74th collatz number: Collecting 11 samples in estimated 34.995 s (11 iterations)
+Benchmarking 74th collatz number: Analyzing
+74th collatz number     time:   [3.1487 s 3.1629 s 3.1796 s]
+
+Benchmarking 76th collatz number
+Benchmarking 76th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.6s, or reduce sample count to 10.
+Benchmarking 76th collatz number: Collecting 11 samples in estimated 34.613 s (11 iterations)
+Benchmarking 76th collatz number: Analyzing
+76th collatz number     time:   [3.1551 s 3.1835 s 3.2164 s]
+
+Benchmarking 78th collatz number
+Benchmarking 78th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.8s, or reduce sample count to 10.
+Benchmarking 78th collatz number: Collecting 11 samples in estimated 34.790 s (11 iterations)
+Benchmarking 78th collatz number: Analyzing
+78th collatz number     time:   [3.1636 s 3.1768 s 3.1908 s]
+
+Benchmarking 80th collatz number
+Benchmarking 80th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.6s, or reduce sample count to 10.
+Benchmarking 80th collatz number: Collecting 11 samples in estimated 34.606 s (11 iterations)
+Benchmarking 80th collatz number: Analyzing
+80th collatz number     time:   [3.1146 s 3.1314 s 3.1490 s]
+
+Benchmarking 82th collatz number
+Benchmarking 82th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.6s, or reduce sample count to 10.
+Benchmarking 82th collatz number: Collecting 11 samples in estimated 37.584 s (11 iterations)
+Benchmarking 82th collatz number: Analyzing
+82th collatz number     time:   [3.4125 s 3.4276 s 3.4443 s]
+
+Benchmarking 84th collatz number
+Benchmarking 84th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.7s, or reduce sample count to 10.
+Benchmarking 84th collatz number: Collecting 11 samples in estimated 34.654 s (11 iterations)
+Benchmarking 84th collatz number: Analyzing
+84th collatz number     time:   [3.0971 s 3.1097 s 3.1274 s]
+
+Benchmarking 86th collatz number
+Benchmarking 86th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.1s, or reduce sample count to 10.
+Benchmarking 86th collatz number: Collecting 11 samples in estimated 35.064 s (11 iterations)
+Benchmarking 86th collatz number: Analyzing
+86th collatz number     time:   [3.1503 s 3.1736 s 3.2061 s]
+
+Benchmarking 88th collatz number
+Benchmarking 88th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.7s, or reduce sample count to 10.
+Benchmarking 88th collatz number: Collecting 11 samples in estimated 34.685 s (11 iterations)
+Benchmarking 88th collatz number: Analyzing
+88th collatz number     time:   [3.1281 s 3.1506 s 3.1794 s]
+
+Benchmarking 90th collatz number
+Benchmarking 90th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 90th collatz number: Collecting 11 samples in estimated 34.432 s (11 iterations)
+Benchmarking 90th collatz number: Analyzing
+90th collatz number     time:   [3.1197 s 3.1374 s 3.1572 s]
+
+Benchmarking 92th collatz number
+Benchmarking 92th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.7s, or reduce sample count to 10.
+Benchmarking 92th collatz number: Collecting 11 samples in estimated 34.664 s (11 iterations)
+Benchmarking 92th collatz number: Analyzing
+92th collatz number     time:   [3.1120 s 3.1331 s 3.1606 s]
+
+Benchmarking 94th collatz number
+Benchmarking 94th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.4s, or reduce sample count to 10.
+Benchmarking 94th collatz number: Collecting 11 samples in estimated 37.438 s (11 iterations)
+Benchmarking 94th collatz number: Analyzing
+94th collatz number     time:   [3.4109 s 3.4374 s 3.4692 s]
+
+Benchmarking 96th collatz number
+Benchmarking 96th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.5s, or reduce sample count to 10.
+Benchmarking 96th collatz number: Collecting 11 samples in estimated 34.458 s (11 iterations)
+Benchmarking 96th collatz number: Analyzing
+96th collatz number     time:   [3.1211 s 3.1431 s 3.1694 s]
+
+Benchmarking 98th collatz number
+Benchmarking 98th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.0s, or reduce sample count to 10.
+Benchmarking 98th collatz number: Collecting 11 samples in estimated 34.989 s (11 iterations)
+Benchmarking 98th collatz number: Analyzing
+98th collatz number     time:   [3.1743 s 3.2060 s 3.2427 s]
+
+Benchmarking 100th collatz number
+Benchmarking 100th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.6s, or reduce sample count to 10.
+Benchmarking 100th collatz number: Collecting 11 samples in estimated 34.634 s (11 iterations)
+Benchmarking 100th collatz number: Analyzing
+100th collatz number    time:   [3.1330 s 3.1392 s 3.1463 s]
+
+Benchmarking 105th collatz number
+Benchmarking 105th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.0s, or reduce sample count to 10.
+Benchmarking 105th collatz number: Collecting 11 samples in estimated 35.008 s (11 iterations)
+Benchmarking 105th collatz number: Analyzing
+105th collatz number    time:   [3.1626 s 3.1812 s 3.2001 s]
+
+Benchmarking 110th collatz number
+Benchmarking 110th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.7s, or reduce sample count to 10.
+Benchmarking 110th collatz number: Collecting 11 samples in estimated 37.666 s (11 iterations)
+Benchmarking 110th collatz number: Analyzing
+110th collatz number    time:   [3.4141 s 3.4341 s 3.4641 s]
+
+Benchmarking 115th collatz number
+Benchmarking 115th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.3s, or reduce sample count to 10.
+Benchmarking 115th collatz number: Collecting 11 samples in estimated 35.306 s (11 iterations)
+Benchmarking 115th collatz number: Analyzing
+115th collatz number    time:   [3.1623 s 3.1862 s 3.2154 s]
+
+Benchmarking 120th collatz number
+Benchmarking 120th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.4s, or reduce sample count to 10.
+Benchmarking 120th collatz number: Collecting 11 samples in estimated 34.377 s (11 iterations)
+Benchmarking 120th collatz number: Analyzing
+120th collatz number    time:   [3.1025 s 3.1119 s 3.1226 s]
+
+Benchmarking 125th collatz number
+Benchmarking 125th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.6s, or reduce sample count to 10.
+Benchmarking 125th collatz number: Collecting 11 samples in estimated 37.648 s (11 iterations)
+Benchmarking 125th collatz number: Analyzing
+125th collatz number    time:   [3.3953 s 3.4009 s 3.4091 s]
+
+Benchmarking 130th collatz number
+Benchmarking 130th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.8s, or reduce sample count to 10.
+Benchmarking 130th collatz number: Collecting 11 samples in estimated 34.766 s (11 iterations)
+Benchmarking 130th collatz number: Analyzing
+130th collatz number    time:   [3.1680 s 3.1912 s 3.2157 s]
+
+Benchmarking 135th collatz number
+Benchmarking 135th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.1s, or reduce sample count to 10.
+Benchmarking 135th collatz number: Collecting 11 samples in estimated 35.080 s (11 iterations)
+Benchmarking 135th collatz number: Analyzing
+135th collatz number    time:   [3.1754 s 3.1955 s 3.2199 s]
+
+Benchmarking 140th collatz number
+Benchmarking 140th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.5s, or reduce sample count to 10.
+Benchmarking 140th collatz number: Collecting 11 samples in estimated 34.506 s (11 iterations)
+Benchmarking 140th collatz number: Analyzing
+140th collatz number    time:   [3.1151 s 3.1435 s 3.1831 s]
+
+Benchmarking 145th collatz number
+Benchmarking 145th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.7s, or reduce sample count to 10.
+Benchmarking 145th collatz number: Collecting 11 samples in estimated 37.671 s (11 iterations)
+Benchmarking 145th collatz number: Analyzing
+145th collatz number    time:   [3.4111 s 3.4362 s 3.4747 s]
+
+Benchmarking 150th collatz number
+Benchmarking 150th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.2s, or reduce sample count to 10.
+Benchmarking 150th collatz number: Collecting 11 samples in estimated 34.222 s (11 iterations)
+Benchmarking 150th collatz number: Analyzing
+150th collatz number    time:   [3.1211 s 3.1482 s 3.1778 s]
+
+Benchmarking 155th collatz number
+Benchmarking 155th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.7s, or reduce sample count to 10.
+Benchmarking 155th collatz number: Collecting 11 samples in estimated 35.722 s (11 iterations)
+Benchmarking 155th collatz number: Analyzing
+155th collatz number    time:   [3.2506 s 3.2672 s 3.2923 s]
+
+Benchmarking 160th collatz number
+Benchmarking 160th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.0s, or reduce sample count to 10.
+Benchmarking 160th collatz number: Collecting 11 samples in estimated 35.022 s (11 iterations)
+Benchmarking 160th collatz number: Analyzing
+160th collatz number    time:   [3.1161 s 3.1393 s 3.1653 s]
+
+Benchmarking 165th collatz number
+Benchmarking 165th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.8s, or reduce sample count to 10.
+Benchmarking 165th collatz number: Collecting 11 samples in estimated 37.761 s (11 iterations)
+Benchmarking 165th collatz number: Analyzing
+165th collatz number    time:   [3.4391 s 3.4724 s 3.5055 s]
+
+Benchmarking 170th collatz number
+Benchmarking 170th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.5s, or reduce sample count to 10.
+Benchmarking 170th collatz number: Collecting 11 samples in estimated 34.478 s (11 iterations)
+Benchmarking 170th collatz number: Analyzing
+170th collatz number    time:   [3.1271 s 3.1599 s 3.1977 s]
+
+Benchmarking 175th collatz number
+Benchmarking 175th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.8s, or reduce sample count to 10.
+Benchmarking 175th collatz number: Collecting 11 samples in estimated 35.818 s (11 iterations)
+Benchmarking 175th collatz number: Analyzing
+175th collatz number    time:   [3.2570 s 3.2773 s 3.3062 s]
+
+Benchmarking 180th collatz number
+Benchmarking 180th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 34.3s, or reduce sample count to 10.
+Benchmarking 180th collatz number: Collecting 11 samples in estimated 34.312 s (11 iterations)
+Benchmarking 180th collatz number: Analyzing
+180th collatz number    time:   [3.1138 s 3.1374 s 3.1652 s]
+
+Benchmarking 185th collatz number
+Benchmarking 185th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.5s, or reduce sample count to 10.
+Benchmarking 185th collatz number: Collecting 11 samples in estimated 35.452 s (11 iterations)
+Benchmarking 185th collatz number: Analyzing
+185th collatz number    time:   [3.2200 s 3.2292 s 3.2416 s]
+
+Benchmarking 190th collatz number
+Benchmarking 190th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.5s, or reduce sample count to 10.
+Benchmarking 190th collatz number: Collecting 11 samples in estimated 37.466 s (11 iterations)
+Benchmarking 190th collatz number: Analyzing
+190th collatz number    time:   [3.4098 s 3.4292 s 3.4581 s]
+
+Benchmarking 195th collatz number
+Benchmarking 195th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.5s, or reduce sample count to 10.
+Benchmarking 195th collatz number: Collecting 11 samples in estimated 37.546 s (11 iterations)
+Benchmarking 195th collatz number: Analyzing
+195th collatz number    time:   [3.4462 s 3.4768 s 3.5085 s]
+
+Benchmarking 200th collatz number
+Benchmarking 200th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.2s, or reduce sample count to 10.
+Benchmarking 200th collatz number: Collecting 11 samples in estimated 35.248 s (11 iterations)
+Benchmarking 200th collatz number: Analyzing
+200th collatz number    time:   [3.1488 s 3.1635 s 3.1806 s]
+
+Benchmarking 210th collatz number
+Benchmarking 210th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.1s, or reduce sample count to 10.
+Benchmarking 210th collatz number: Collecting 11 samples in estimated 35.084 s (11 iterations)
+Benchmarking 210th collatz number: Analyzing
+210th collatz number    time:   [3.1707 s 3.1970 s 3.2302 s]
+
+Benchmarking 220th collatz number
+Benchmarking 220th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 38.1s, or reduce sample count to 10.
+Benchmarking 220th collatz number: Collecting 11 samples in estimated 38.146 s (11 iterations)
+Benchmarking 220th collatz number: Analyzing
+220th collatz number    time:   [3.4206 s 3.4386 s 3.4573 s]
+
+Benchmarking 230th collatz number
+Benchmarking 230th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.1s, or reduce sample count to 10.
+Benchmarking 230th collatz number: Collecting 11 samples in estimated 35.105 s (11 iterations)
+Benchmarking 230th collatz number: Analyzing
+230th collatz number    time:   [3.1620 s 3.1702 s 3.1797 s]
+
+Benchmarking 240th collatz number
+Benchmarking 240th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 35.4s, or reduce sample count to 10.
+Benchmarking 240th collatz number: Collecting 11 samples in estimated 35.428 s (11 iterations)
+Benchmarking 240th collatz number: Analyzing
+240th collatz number    time:   [3.1651 s 3.1859 s 3.2148 s]
+
+Benchmarking 250th collatz number
+Benchmarking 250th collatz number: Warming up for 5.0000 s
+
+Warning: Unable to complete 11 samples in 5.0s. You may wish to increase target time to 37.9s, or reduce sample count to 10.
+Benchmarking 250th collatz number: Collecting 11 samples in estimated 37.880 s (11 iterations)
+Benchmarking 250th collatz number: Analyzing
+250th collatz number    time:   [3.4126 s 3.4314 s 3.4566 s]

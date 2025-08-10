@@ -1,0 +1,14 @@
+benchmark,input,variant,median_s,lo_s,hi_s,improvement_pct_vs_baseline
+sha3_chain,1,untouched,4.2064,4.1803,4.2335,0.00
+sha3_chain,1,v-reg,5.5029,5.4646,5.5492,-30.82
+sha3_chain,1,no-reg,4.0232,4.0073,4.0396,4.36
+sha3_chain,5,untouched,6.2087,6.1540,6.2667,0.00
+sha3_chain,5,v-reg,13.3530,13.2860,13.4330,-115.07
+sha3_chain,5,no-reg,5.8796,5.8294,5.9314,5.30
+sha3_chain,10,untouched,9.4241,9.2990,9.5670,0.00
+sha3_chain,10,v-reg,23.7170,23.6280,23.8100,-151.66
+sha3_chain,10,no-reg,8.7118,8.6345,8.7960,7.56
+sha3_chain,20,untouched,14.4790,14.4010,14.5620,0.00
+sha3_chain,20,no-reg,12.9860,12.8940,13.0770,10.31
+sha3_chain,25,untouched,23.4330,23.3120,23.5540,0.00
+sha3_chain,25,no-reg,20.7960,20.6280,20.9570,11.25

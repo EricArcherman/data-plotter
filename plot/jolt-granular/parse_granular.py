@@ -111,12 +111,12 @@ def summarize(vals: List[float]) -> Tuple[float, float, float]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Parse granular 32-reg results")
+    parser = argparse.ArgumentParser(description="Parse granular results (supports multiple variants)")
     parser.add_argument(
         "--root",
         type=Path,
-        default=Path(__file__).parent / "32-reg-results",
-        help="Directory containing granular result .txt files",
+        action="append",
+        help="Directory containing granular result .txt files. Can be provided multiple times.",
     )
     parser.add_argument(
         "--out-dir",
@@ -126,167 +126,188 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    files = list(sorted(p for p in args.root.glob("*.txt") if p.is_file()))
-    if not files:
-        print(f"No .txt files in {args.root}")
-        return
+    # Default roots if none provided
+    if not args.root:
+        default_32 = Path(__file__).parent / "32-reg-results"
+        default_vanilla = Path(__file__).parent / "vanilla-results" / "untouched-results"
+        args.root = [default_32, default_vanilla]
+
+    def guess_variant(root: Path) -> str:
+        name_chain = [p.name.lower() for p in [root] + list(root.parents)[:2]]
+        if any("32-reg" in n for n in name_chain) or any("32_reg" in n for n in name_chain):
+            return "32-reg"
+        if any("vanilla" in n for n in name_chain):
+            return "vanilla"
+        # fallback to directory name
+        return root.name
 
     # Accumulators
-    # key -> phase -> samples of seconds
-    top_level: Dict[Tuple[str, int], Dict[str, List[float]]] = defaultdict(lambda: defaultdict(list))
-    # key -> group -> name -> samples (seconds)
-    subphases: Dict[Tuple[str, int], Dict[str, Dict[str, List[float]]]] = defaultdict(
+    # (variant, benchmark, input) -> phase -> samples of seconds
+    top_level: Dict[Tuple[str, str, int], Dict[str, List[float]]] = defaultdict(lambda: defaultdict(list))
+    # (variant, benchmark, input) -> group -> name -> samples (seconds)
+    subphases: Dict[Tuple[str, str, int], Dict[str, Dict[str, List[float]]]] = defaultdict(
         lambda: defaultdict(lambda: defaultdict(list))
     )
-    # key -> component -> samples (MB)
-    proof_sizes: Dict[Tuple[str, int], Dict[str, List[float]]] = defaultdict(lambda: defaultdict(list))
+    # (variant, benchmark, input) -> component -> samples (MB)
+    proof_sizes: Dict[Tuple[str, str, int], Dict[str, List[float]]] = defaultdict(lambda: defaultdict(list))
 
     # Map key tuple to metadata (metric)
-    key_to_metric: Dict[Tuple[str, int], str] = {}
+    key_to_metric: Dict[Tuple[str, str, int], str] = {}
+    parsed_files = 0
 
-    # State variables while scanning a file
-    for path in files:
-        benchmark = path.stem  # e.g., collatz, fibonacci, sha2_chain, sha3_chain
-        # We'll discover precise names from the header lines as well
-        current_bench: Optional[str] = None
-        current_input_val: Optional[int] = None
-        current_metric: Optional[str] = None
-        collecting = False
-
-        # Scratch per-sample (reset after each [bench])
-        scratch_prove: Dict[str, float] = {}
-        scratch_preprocess: Dict[str, float] = {}
-        scratch_verify: Dict[str, float] = {}
-        scratch_sizes: Dict[str, float] = {}
-
-        try:
-            text = path.read_text(encoding="utf-8", errors="ignore")
-        except Exception:
+    # Scan all roots
+    for root in args.root:
+        files = list(sorted(p for p in root.glob("*.txt") if p.is_file()))
+        if not files:
+            print(f"No .txt files in {root}")
             continue
 
-        for raw in text.splitlines():
-            line = raw.rstrip("\n")
+        variant = guess_variant(root)
+        parsed_files += len(files)
 
-            # First, detect start/stop of sample collection windows
-            m = RE_COLLECTING.match(line)
-            if m:
-                # Ensure current benchmark context exists; if not, infer from the same line
+        # State variables while scanning a file
+        for path in files:
+            benchmark = path.stem  # e.g., collatz, fibonacci, sha2_chain, sha3_chain
+            # We'll discover precise names from the header lines as well
+            current_bench: Optional[str] = None
+            current_input_val: Optional[int] = None
+            current_metric: Optional[str] = None
+            collecting = False
+
+            # Scratch per-sample (reset after each [bench])
+            scratch_prove: Dict[str, float] = {}
+            scratch_preprocess: Dict[str, float] = {}
+            scratch_verify: Dict[str, float] = {}
+            scratch_sizes: Dict[str, float] = {}
+
+            try:
+                text = path.read_text(encoding="utf-8", errors="ignore")
+            except Exception:
+                continue
+
+            for raw in text.splitlines():
+                line = raw.rstrip("\n")
+
+                # First, detect start/stop of sample collection windows
+                m = RE_COLLECTING.match(line)
+                if m:
+                    # Ensure current benchmark context exists; if not, infer from the same line
+                    if current_bench is None or current_input_val is None:
+                        mf = RE_BENCH_FIB_COL.match(line)
+                        ms = mf if mf else RE_BENCH_SHA.match(line)
+                        if ms:
+                            if mf:
+                                bname = mf.group("num_name")
+                                current_bench = "fibonacci" if "fibonacci" in bname else "collatz"
+                                current_input_val = int(mf.group("ordinal"))
+                                current_metric = "n"
+                            else:
+                                sha = ms.group("sha")
+                                current_bench = f"{sha}_chain"
+                                current_input_val = int(ms.group("count"))
+                                current_metric = "cycles"
+                    collecting = True
+                    # new collection window; clear scratch for the upcoming sample
+                    scratch_prove.clear(); scratch_preprocess.clear(); scratch_verify.clear(); scratch_sizes.clear()
+                    continue
+
+                if RE_ANALYZING.match(line):
+                    collecting = False
+                    continue
+
+                # Input group identification
+                m = RE_BENCH_FIB_COL.match(line)
+                if m:
+                    current_bench = m.group("num_name")
+                    # normalize to benchmark id
+                    bname = m.group("num_name")
+                    if "fibonacci" in bname:
+                        current_bench = "fibonacci"
+                    else:
+                        current_bench = "collatz"
+                    current_input_val = int(m.group("ordinal"))
+                    current_metric = "n"
+                    collecting = False
+                    # reset scratch on new input
+                    scratch_prove.clear(); scratch_preprocess.clear(); scratch_verify.clear(); scratch_sizes.clear()
+                    continue
+
+                m = RE_BENCH_SHA.match(line)
+                if m:
+                    sha = m.group("sha")
+                    current_bench = f"{sha}_chain"
+                    current_input_val = int(m.group("count"))
+                    current_metric = "cycles"
+                    collecting = False
+                    scratch_prove.clear(); scratch_preprocess.clear(); scratch_verify.clear(); scratch_sizes.clear()
+                    continue
+
                 if current_bench is None or current_input_val is None:
-                    mf = RE_BENCH_FIB_COL.match(line)
-                    ms = mf if mf else RE_BENCH_SHA.match(line)
-                    if ms:
-                        if mf:
-                            bname = mf.group("num_name")
-                            current_bench = "fibonacci" if "fibonacci" in bname else "collatz"
-                            current_input_val = int(mf.group("ordinal"))
-                            current_metric = "n"
-                        else:
-                            sha = ms.group("sha")
-                            current_bench = f"{sha}_chain"
-                            current_input_val = int(ms.group("count"))
-                            current_metric = "cycles"
-                collecting = True
-                # new collection window; clear scratch for the upcoming sample
-                scratch_prove.clear(); scratch_preprocess.clear(); scratch_verify.clear(); scratch_sizes.clear()
-                continue
+                    # not inside a benchmark block yet
+                    continue
 
-            if RE_ANALYZING.match(line):
-                collecting = False
-                continue
+                # Capture lines only when actively collecting samples
+                if not collecting:
+                    continue
 
-            # Input group identification
-            m = RE_BENCH_FIB_COL.match(line)
-            if m:
-                current_bench = m.group("num_name")
-                # normalize to benchmark id
-                bname = m.group("num_name")
-                if "fibonacci" in bname:
-                    current_bench = "fibonacci"
-                else:
-                    current_bench = "collatz"
-                current_input_val = int(m.group("ordinal"))
-                current_metric = "n"
-                collecting = False
-                # reset scratch on new input
-                scratch_prove.clear(); scratch_preprocess.clear(); scratch_verify.clear(); scratch_sizes.clear()
-                continue
+                m = RE_SECTION_KVS_S.match(line)
+                if m:
+                    sec = m.group("section")
+                    kvs = parse_kvs_seconds(m.group("kvs"))
+                    if sec == "prove":
+                        scratch_prove = kvs
+                    else:
+                        scratch_preprocess = kvs
+                    continue
 
-            m = RE_BENCH_SHA.match(line)
-            if m:
-                sha = m.group("sha")
-                current_bench = f"{sha}_chain"
-                current_input_val = int(m.group("count"))
-                current_metric = "cycles"
-                collecting = False
-                scratch_prove.clear(); scratch_preprocess.clear(); scratch_verify.clear(); scratch_sizes.clear()
-                continue
+                m = RE_TIMING.match(line)
+                if m:
+                    # Optional: could be used, but we prefer [bench] as ground truth
+                    # Still, ignore here since [bench] includes verify
+                    continue
 
-            if current_bench is None or current_input_val is None:
-                # not inside a benchmark block yet
-                continue
+                m = RE_PROOF_SIZE.match(line)
+                if m:
+                    scratch_sizes = {
+                        "commitments": float(m.group("commit")),
+                        "proof": float(m.group("proof")),
+                        "total": float(m.group("total")),
+                    }
+                    continue
 
-            # Capture lines only when actively collecting samples
-            if not collecting:
-                continue
+                m = RE_VERIFY_SUB.match(line)
+                if m:
+                    scratch_verify[m.group("key")] = float(m.group("val"))
+                    continue
 
-            m = RE_SECTION_KVS_S.match(line)
-            if m:
-                sec = m.group("section")
-                kvs = parse_kvs_seconds(m.group("kvs"))
-                if sec == "prove":
-                    scratch_prove = kvs
-                else:
-                    scratch_preprocess = kvs
-                continue
+                m = RE_BENCH.match(line)
+                if m:
+                    # finalize one sample
+                    k = (variant, current_bench, current_input_val)
+                    key_to_metric[k] = current_metric or "n"
 
-            m = RE_TIMING.match(line)
-            if m:
-                # Optional: could be used, but we prefer [bench] as ground truth
-                # Still, ignore here since [bench] includes verify
-                continue
+                    # top-level phases from [bench]
+                    top_level[k]["decode"].append(float(m.group("decode")))
+                    top_level[k]["trace"].append(float(m.group("trace")))
+                    top_level[k]["preprocess"].append(float(m.group("preprocess")))
+                    top_level[k]["prove"].append(float(m.group("prove")))
+                    top_level[k]["verify"].append(float(m.group("verify")))
 
-            m = RE_PROOF_SIZE.match(line)
-            if m:
-                scratch_sizes = {
-                    "commitments": float(m.group("commit")),
-                    "proof": float(m.group("proof")),
-                    "total": float(m.group("total")),
-                }
-                continue
+                    # subphases from scratch accumulators
+                    for name, val in scratch_preprocess.items():
+                        subphases[k]["preprocess"][name].append(val)
+                    for name, val in scratch_prove.items():
+                        subphases[k]["prove"][name].append(val)
+                    for name, val in scratch_verify.items():
+                        subphases[k]["verify"][name].append(val)
+                    for comp, mb in scratch_sizes.items():
+                        proof_sizes[k][comp].append(mb)
 
-            m = RE_VERIFY_SUB.match(line)
-            if m:
-                scratch_verify[m.group("key")] = float(m.group("val"))
-                continue
+                    # reset scratch for next sample
+                    scratch_prove.clear(); scratch_preprocess.clear(); scratch_verify.clear(); scratch_sizes.clear()
+                    continue
 
-            m = RE_BENCH.match(line)
-            if m:
-                # finalize one sample
-                k = (current_bench, current_input_val)
-                key_to_metric[k] = current_metric or "n"
-
-                # top-level phases from [bench]
-                top_level[k]["decode"].append(float(m.group("decode")))
-                top_level[k]["trace"].append(float(m.group("trace")))
-                top_level[k]["preprocess"].append(float(m.group("preprocess")))
-                top_level[k]["prove"].append(float(m.group("prove")))
-                top_level[k]["verify"].append(float(m.group("verify")))
-
-                # subphases from scratch accumulators
-                for name, val in scratch_preprocess.items():
-                    subphases[k]["preprocess"][name].append(val)
-                for name, val in scratch_prove.items():
-                    subphases[k]["prove"][name].append(val)
-                for name, val in scratch_verify.items():
-                    subphases[k]["verify"][name].append(val)
-                for comp, mb in scratch_sizes.items():
-                    proof_sizes[k][comp].append(mb)
-
-                # reset scratch for next sample
-                scratch_prove.clear(); scratch_preprocess.clear(); scratch_verify.clear(); scratch_sizes.clear()
-                continue
-
-        # end for lines
+            # end for lines (per file)
     # end for files
 
     out_dir: Path = args.out_dir
@@ -310,13 +331,13 @@ def main() -> None:
             ],
         )
         writer.writeheader()
-        for (bench, inp), phases in sorted(top_level.items(), key=lambda x: (x[0][0], x[0][1])):
-            metric = key_to_metric.get((bench, inp), "n")
+        for (variant, bench, inp), phases in sorted(top_level.items(), key=lambda x: (x[0][0], x[0][1], x[0][2])):
+            metric = key_to_metric.get((variant, bench, inp), "n")
             for phase, samples in phases.items():
                 lo, mid, hi = summarize(samples)
                 writer.writerow(
                     {
-                        "variant": "32-reg",
+                        "variant": variant,
                         "benchmark": bench,
                         "input_value": inp,
                         "input_metric": metric,
@@ -347,14 +368,14 @@ def main() -> None:
             ],
         )
         writer.writeheader()
-        for (bench, inp), groups in sorted(subphases.items(), key=lambda x: (x[0][0], x[0][1])):
-            metric = key_to_metric.get((bench, inp), "n")
+        for (variant, bench, inp), groups in sorted(subphases.items(), key=lambda x: (x[0][0], x[0][1], x[0][2])):
+            metric = key_to_metric.get((variant, bench, inp), "n")
             for group, parts in groups.items():
                 for name, samples in parts.items():
                     lo, mid, hi = summarize(samples)
                     writer.writerow(
                         {
-                            "variant": "32-reg",
+                            "variant": variant,
                             "benchmark": bench,
                             "input_value": inp,
                             "input_metric": metric,
@@ -385,13 +406,13 @@ def main() -> None:
             ],
         )
         writer.writeheader()
-        for (bench, inp), comps in sorted(proof_sizes.items(), key=lambda x: (x[0][0], x[0][1])):
-            metric = key_to_metric.get((bench, inp), "n")
+        for (variant, bench, inp), comps in sorted(proof_sizes.items(), key=lambda x: (x[0][0], x[0][1], x[0][2])):
+            metric = key_to_metric.get((variant, bench, inp), "n")
             for comp, samples in comps.items():
                 lo, mid, hi = summarize(samples)
                 writer.writerow(
                     {
-                        "variant": "32-reg",
+                        "variant": variant,
                         "benchmark": bench,
                         "input_value": inp,
                         "input_metric": metric,
@@ -406,22 +427,22 @@ def main() -> None:
     # Write a compact JSON summary for convenience
     summary = {
         "top_level": {
-            f"{bench}:{inp}": {phase: {"lo": min(vals), "mid": median(vals), "hi": max(vals)} for phase, vals in phases.items()}
-            for (bench, inp), phases in top_level.items()
+            f"{variant}:{bench}:{inp}": {phase: {"lo": min(vals), "mid": median(vals), "hi": max(vals)} for phase, vals in phases.items()}
+            for (variant, bench, inp), phases in top_level.items()
         },
         "subphases": {
-            f"{bench}:{inp}": {grp: {name: {"lo": min(vals), "mid": median(vals), "hi": max(vals)} for name, vals in parts.items()} for grp, parts in groups.items()}
-            for (bench, inp), groups in subphases.items()
+            f"{variant}:{bench}:{inp}": {grp: {name: {"lo": min(vals), "mid": median(vals), "hi": max(vals)} for name, vals in parts.items()} for grp, parts in groups.items()}
+            for (variant, bench, inp), groups in subphases.items()
         },
         "proof_sizes": {
-            f"{bench}:{inp}": {comp: {"lo": min(vals), "mid": median(vals), "hi": max(vals)} for comp, vals in comps.items()}
-            for (bench, inp), comps in proof_sizes.items()
+            f"{variant}:{bench}:{inp}": {comp: {"lo": min(vals), "mid": median(vals), "hi": max(vals)} for comp, vals in comps.items()}
+            for (variant, bench, inp), comps in proof_sizes.items()
         },
     }
     with (out_dir / "granular_summary.json").open("w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
 
-    print(f"Parsed granular results from {len(files)} files.")
+    print(f"Parsed granular results from {parsed_files} files.")
     print(f"Top-level CSV:   {top_csv}")
     print(f"Subphases CSV:   {sub_csv}")
     print(f"Proof sizes CSV: {size_csv}")

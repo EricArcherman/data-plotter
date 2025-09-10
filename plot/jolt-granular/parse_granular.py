@@ -128,14 +128,22 @@ def main() -> None:
 
     # Default roots if none provided
     if not args.root:
-        default_32 = Path(__file__).parent / "32-reg-results"
-        default_vanilla = Path(__file__).parent / "vanilla-results" / "untouched-results"
-        args.root = [default_32, default_vanilla]
+        base = Path(__file__).parent
+        default_32 = base / "32-reg-results"
+        default_mem = base / "mem-batch-results"
+        # Support both old and new vanilla layouts
+        vanilla_new = base / "vanilla-results"
+        vanilla_old = base / "vanilla-results" / "untouched-results"
+        # Prefer new layout when present
+        vanilla_default = vanilla_new if vanilla_new.exists() else vanilla_old
+        args.root = [default_32, default_mem, vanilla_default]
 
     def guess_variant(root: Path) -> str:
         name_chain = [p.name.lower() for p in [root] + list(root.parents)[:2]]
         if any("32-reg" in n for n in name_chain) or any("32_reg" in n for n in name_chain):
             return "32-reg"
+        if any("mem-batch" in n for n in name_chain) or any("mem_batch" in n for n in name_chain):
+            return "mem-batch"
         if any("vanilla" in n for n in name_chain):
             return "vanilla"
         # fallback to directory name
